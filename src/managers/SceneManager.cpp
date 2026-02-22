@@ -20,6 +20,12 @@ void SceneManager::update(float dt)
     if(currentScene != nullptr && !isPaused)
     {
         currentScene->update(dt);
+        if(currentScene->isDone())
+        {
+            Scene* oldScene = currentScene;
+            currentScene = sceneFactory(oldScene->getNextScene());
+            delete oldScene;
+        }
     }
 }
 

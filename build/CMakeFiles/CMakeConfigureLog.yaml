@@ -42,9 +42,13 @@ events:
       - "C:/Program Files/Process Lasso/"
       - "C:/Program Files/CMake/bin/"
       - "C:/Program Files/MATLAB/R2025b/bin/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/Docker/Docker/resources/bin/"
       - "C:/Users/AskeV/AppData/Local/Microsoft/WindowsApps/"
       - "C:/Users/AskeV/AppData/Local/Programs/Microsoft VS Code/bin/"
       - "C:/msys64/ucrt64/bin/"
+      - "C:/Users/AskeV/.dotnet/tools/"
+      - "C:/Program Files/JetBrains/CLion 2025.3.2/bin/"
     searched_directories:
       - "C:/Program Files/Common Files/Oracle/Java/javapath/ninja-build.com"
       - "C:/Program Files/Common Files/Oracle/Java/javapath/ninja-build.exe"
@@ -163,6 +167,24 @@ events:
       - "C:/Program Files/MATLAB/R2025b/bin/samu.com"
       - "C:/Program Files/MATLAB/R2025b/bin/samu.exe"
       - "C:/Program Files/MATLAB/R2025b/bin/samu"
+      - "C:/Program Files/dotnet/ninja-build.com"
+      - "C:/Program Files/dotnet/ninja-build.exe"
+      - "C:/Program Files/dotnet/ninja-build"
+      - "C:/Program Files/dotnet/ninja.com"
+      - "C:/Program Files/dotnet/ninja.exe"
+      - "C:/Program Files/dotnet/ninja"
+      - "C:/Program Files/dotnet/samu.com"
+      - "C:/Program Files/dotnet/samu.exe"
+      - "C:/Program Files/dotnet/samu"
+      - "C:/Program Files/Docker/Docker/resources/bin/ninja-build.com"
+      - "C:/Program Files/Docker/Docker/resources/bin/ninja-build.exe"
+      - "C:/Program Files/Docker/Docker/resources/bin/ninja-build"
+      - "C:/Program Files/Docker/Docker/resources/bin/ninja.com"
+      - "C:/Program Files/Docker/Docker/resources/bin/ninja.exe"
+      - "C:/Program Files/Docker/Docker/resources/bin/ninja"
+      - "C:/Program Files/Docker/Docker/resources/bin/samu.com"
+      - "C:/Program Files/Docker/Docker/resources/bin/samu.exe"
+      - "C:/Program Files/Docker/Docker/resources/bin/samu"
       - "C:/Users/AskeV/AppData/Local/Microsoft/WindowsApps/ninja-build.com"
       - "C:/Users/AskeV/AppData/Local/Microsoft/WindowsApps/ninja-build.exe"
       - "C:/Users/AskeV/AppData/Local/Microsoft/WindowsApps/ninja-build"
@@ -201,9 +223,13 @@ events:
         - "C:\\Program Files\\Process Lasso\\"
         - "C:\\Program Files\\CMake\\bin"
         - "C:\\Program Files\\MATLAB\\R2025b\\bin"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
         - "C:\\Users\\AskeV\\AppData\\Local\\Microsoft\\WindowsApps"
         - "C:\\Users\\AskeV\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
         - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\Users\\AskeV\\.dotnet\\tools"
+        - "C:\\Program Files\\JetBrains\\CLion 2025.3.2\\bin"
   -
     kind: "find-v1"
     backtrace:
@@ -243,9 +269,13 @@ events:
       - "C:/Program Files/Process Lasso/"
       - "C:/Program Files/CMake/bin/"
       - "C:/Program Files/MATLAB/R2025b/bin/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/Docker/Docker/resources/bin/"
       - "C:/Users/AskeV/AppData/Local/Microsoft/WindowsApps/"
       - "C:/Users/AskeV/AppData/Local/Programs/Microsoft VS Code/bin/"
       - "C:/msys64/ucrt64/bin/"
+      - "C:/Users/AskeV/.dotnet/tools/"
+      - "C:/Program Files/JetBrains/CLion 2025.3.2/bin/"
     searched_directories:
       - "C:/Program Files/Common Files/Oracle/Java/javapath/cc.com"
       - "C:/Program Files/Common Files/Oracle/Java/javapath/cc.exe"
@@ -520,6 +550,48 @@ events:
       - "C:/Program Files/MATLAB/R2025b/bin/clang.com"
       - "C:/Program Files/MATLAB/R2025b/bin/clang.exe"
       - "C:/Program Files/MATLAB/R2025b/bin/clang"
+      - "C:/Program Files/dotnet/cc.com"
+      - "C:/Program Files/dotnet/cc.exe"
+      - "C:/Program Files/dotnet/cc"
+      - "C:/Program Files/dotnet/gcc.com"
+      - "C:/Program Files/dotnet/gcc.exe"
+      - "C:/Program Files/dotnet/gcc"
+      - "C:/Program Files/dotnet/cl.com"
+      - "C:/Program Files/dotnet/cl.exe"
+      - "C:/Program Files/dotnet/cl"
+      - "C:/Program Files/dotnet/bcc.com"
+      - "C:/Program Files/dotnet/bcc.exe"
+      - "C:/Program Files/dotnet/bcc"
+      - "C:/Program Files/dotnet/xlc.com"
+      - "C:/Program Files/dotnet/xlc.exe"
+      - "C:/Program Files/dotnet/xlc"
+      - "C:/Program Files/dotnet/icx.com"
+      - "C:/Program Files/dotnet/icx.exe"
+      - "C:/Program Files/dotnet/icx"
+      - "C:/Program Files/dotnet/clang.com"
+      - "C:/Program Files/dotnet/clang.exe"
+      - "C:/Program Files/dotnet/clang"
+      - "C:/Program Files/Docker/Docker/resources/bin/cc.com"
+      - "C:/Program Files/Docker/Docker/resources/bin/cc.exe"
+      - "C:/Program Files/Docker/Docker/resources/bin/cc"
+      - "C:/Program Files/Docker/Docker/resources/bin/gcc.com"
+      - "C:/Program Files/Docker/Docker/resources/bin/gcc.exe"
+      - "C:/Program Files/Docker/Docker/resources/bin/gcc"
+      - "C:/Program Files/Docker/Docker/resources/bin/cl.com"
+      - "C:/Program Files/Docker/Docker/resources/bin/cl.exe"
+      - "C:/Program Files/Docker/Docker/resources/bin/cl"
+      - "C:/Program Files/Docker/Docker/resources/bin/bcc.com"
+      - "C:/Program Files/Docker/Docker/resources/bin/bcc.exe"
+      - "C:/Program Files/Docker/Docker/resources/bin/bcc"
+      - "C:/Program Files/Docker/Docker/resources/bin/xlc.com"
+      - "C:/Program Files/Docker/Docker/resources/bin/xlc.exe"
+      - "C:/Program Files/Docker/Docker/resources/bin/xlc"
+      - "C:/Program Files/Docker/Docker/resources/bin/icx.com"
+      - "C:/Program Files/Docker/Docker/resources/bin/icx.exe"
+      - "C:/Program Files/Docker/Docker/resources/bin/icx"
+      - "C:/Program Files/Docker/Docker/resources/bin/clang.com"
+      - "C:/Program Files/Docker/Docker/resources/bin/clang.exe"
+      - "C:/Program Files/Docker/Docker/resources/bin/clang"
       - "C:/Users/AskeV/AppData/Local/Microsoft/WindowsApps/cc.com"
       - "C:/Users/AskeV/AppData/Local/Microsoft/WindowsApps/cc.exe"
       - "C:/Users/AskeV/AppData/Local/Microsoft/WindowsApps/cc"
@@ -579,9 +651,13 @@ events:
         - "C:\\Program Files\\Process Lasso\\"
         - "C:\\Program Files\\CMake\\bin"
         - "C:\\Program Files\\MATLAB\\R2025b\\bin"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
         - "C:\\Users\\AskeV\\AppData\\Local\\Microsoft\\WindowsApps"
         - "C:\\Users\\AskeV\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
         - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\Users\\AskeV\\.dotnet\\tools"
+        - "C:\\Program Files\\JetBrains\\CLion 2025.3.2\\bin"
   -
     kind: "find-v1"
     backtrace:
@@ -622,9 +698,13 @@ events:
         - "C:\\Program Files\\Process Lasso\\"
         - "C:\\Program Files\\CMake\\bin"
         - "C:\\Program Files\\MATLAB\\R2025b\\bin"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
         - "C:\\Users\\AskeV\\AppData\\Local\\Microsoft\\WindowsApps"
         - "C:\\Users\\AskeV\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
         - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\Users\\AskeV\\.dotnet\\tools"
+        - "C:\\Program Files\\JetBrains\\CLion 2025.3.2\\bin"
   -
     kind: "message-v1"
     backtrace:
@@ -681,8 +761,12 @@ events:
       - "C:/Program Files/Process Lasso/"
       - "C:/Program Files/CMake/bin/"
       - "C:/Program Files/MATLAB/R2025b/bin/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/Docker/Docker/resources/bin/"
       - "C:/Users/AskeV/AppData/Local/Microsoft/WindowsApps/"
       - "C:/Users/AskeV/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/AskeV/.dotnet/tools/"
+      - "C:/Program Files/JetBrains/CLion 2025.3.2/bin/"
     searched_directories:
       - "C:/msys64/ucrt64/bin/ar.com"
     found: "C:/msys64/ucrt64/bin/ar.exe"
@@ -701,9 +785,13 @@ events:
         - "C:\\Program Files\\Process Lasso\\"
         - "C:\\Program Files\\CMake\\bin"
         - "C:\\Program Files\\MATLAB\\R2025b\\bin"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
         - "C:\\Users\\AskeV\\AppData\\Local\\Microsoft\\WindowsApps"
         - "C:\\Users\\AskeV\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
         - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\Users\\AskeV\\.dotnet\\tools"
+        - "C:\\Program Files\\JetBrains\\CLion 2025.3.2\\bin"
   -
     kind: "find-v1"
     backtrace:
@@ -738,8 +826,12 @@ events:
       - "C:/Program Files/Process Lasso/"
       - "C:/Program Files/CMake/bin/"
       - "C:/Program Files/MATLAB/R2025b/bin/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/Docker/Docker/resources/bin/"
       - "C:/Users/AskeV/AppData/Local/Microsoft/WindowsApps/"
       - "C:/Users/AskeV/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/AskeV/.dotnet/tools/"
+      - "C:/Program Files/JetBrains/CLion 2025.3.2/bin/"
     searched_directories:
       - "C:/msys64/ucrt64/bin/ranlib.com"
     found: "C:/msys64/ucrt64/bin/ranlib.exe"
@@ -758,9 +850,13 @@ events:
         - "C:\\Program Files\\Process Lasso\\"
         - "C:\\Program Files\\CMake\\bin"
         - "C:\\Program Files\\MATLAB\\R2025b\\bin"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
         - "C:\\Users\\AskeV\\AppData\\Local\\Microsoft\\WindowsApps"
         - "C:\\Users\\AskeV\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
         - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\Users\\AskeV\\.dotnet\\tools"
+        - "C:\\Program Files\\JetBrains\\CLion 2025.3.2\\bin"
   -
     kind: "find-v1"
     backtrace:
@@ -795,8 +891,12 @@ events:
       - "C:/Program Files/Process Lasso/"
       - "C:/Program Files/CMake/bin/"
       - "C:/Program Files/MATLAB/R2025b/bin/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/Docker/Docker/resources/bin/"
       - "C:/Users/AskeV/AppData/Local/Microsoft/WindowsApps/"
       - "C:/Users/AskeV/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/AskeV/.dotnet/tools/"
+      - "C:/Program Files/JetBrains/CLion 2025.3.2/bin/"
     searched_directories:
       - "C:/msys64/ucrt64/bin/strip.com"
     found: "C:/msys64/ucrt64/bin/strip.exe"
@@ -815,9 +915,13 @@ events:
         - "C:\\Program Files\\Process Lasso\\"
         - "C:\\Program Files\\CMake\\bin"
         - "C:\\Program Files\\MATLAB\\R2025b\\bin"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
         - "C:\\Users\\AskeV\\AppData\\Local\\Microsoft\\WindowsApps"
         - "C:\\Users\\AskeV\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
         - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\Users\\AskeV\\.dotnet\\tools"
+        - "C:\\Program Files\\JetBrains\\CLion 2025.3.2\\bin"
   -
     kind: "find-v1"
     backtrace:
@@ -852,8 +956,12 @@ events:
       - "C:/Program Files/Process Lasso/"
       - "C:/Program Files/CMake/bin/"
       - "C:/Program Files/MATLAB/R2025b/bin/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/Docker/Docker/resources/bin/"
       - "C:/Users/AskeV/AppData/Local/Microsoft/WindowsApps/"
       - "C:/Users/AskeV/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/AskeV/.dotnet/tools/"
+      - "C:/Program Files/JetBrains/CLion 2025.3.2/bin/"
     searched_directories:
       - "C:/msys64/ucrt64/bin/ld.com"
     found: "C:/msys64/ucrt64/bin/ld.exe"
@@ -872,9 +980,13 @@ events:
         - "C:\\Program Files\\Process Lasso\\"
         - "C:\\Program Files\\CMake\\bin"
         - "C:\\Program Files\\MATLAB\\R2025b\\bin"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
         - "C:\\Users\\AskeV\\AppData\\Local\\Microsoft\\WindowsApps"
         - "C:\\Users\\AskeV\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
         - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\Users\\AskeV\\.dotnet\\tools"
+        - "C:\\Program Files\\JetBrains\\CLion 2025.3.2\\bin"
   -
     kind: "find-v1"
     backtrace:
@@ -909,8 +1021,12 @@ events:
       - "C:/Program Files/Process Lasso/"
       - "C:/Program Files/CMake/bin/"
       - "C:/Program Files/MATLAB/R2025b/bin/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/Docker/Docker/resources/bin/"
       - "C:/Users/AskeV/AppData/Local/Microsoft/WindowsApps/"
       - "C:/Users/AskeV/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/AskeV/.dotnet/tools/"
+      - "C:/Program Files/JetBrains/CLion 2025.3.2/bin/"
     searched_directories:
       - "C:/msys64/ucrt64/bin/nm.com"
     found: "C:/msys64/ucrt64/bin/nm.exe"
@@ -929,9 +1045,13 @@ events:
         - "C:\\Program Files\\Process Lasso\\"
         - "C:\\Program Files\\CMake\\bin"
         - "C:\\Program Files\\MATLAB\\R2025b\\bin"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
         - "C:\\Users\\AskeV\\AppData\\Local\\Microsoft\\WindowsApps"
         - "C:\\Users\\AskeV\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
         - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\Users\\AskeV\\.dotnet\\tools"
+        - "C:\\Program Files\\JetBrains\\CLion 2025.3.2\\bin"
   -
     kind: "find-v1"
     backtrace:
@@ -966,8 +1086,12 @@ events:
       - "C:/Program Files/Process Lasso/"
       - "C:/Program Files/CMake/bin/"
       - "C:/Program Files/MATLAB/R2025b/bin/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/Docker/Docker/resources/bin/"
       - "C:/Users/AskeV/AppData/Local/Microsoft/WindowsApps/"
       - "C:/Users/AskeV/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/AskeV/.dotnet/tools/"
+      - "C:/Program Files/JetBrains/CLion 2025.3.2/bin/"
     searched_directories:
       - "C:/msys64/ucrt64/bin/objdump.com"
     found: "C:/msys64/ucrt64/bin/objdump.exe"
@@ -986,9 +1110,13 @@ events:
         - "C:\\Program Files\\Process Lasso\\"
         - "C:\\Program Files\\CMake\\bin"
         - "C:\\Program Files\\MATLAB\\R2025b\\bin"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
         - "C:\\Users\\AskeV\\AppData\\Local\\Microsoft\\WindowsApps"
         - "C:\\Users\\AskeV\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
         - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\Users\\AskeV\\.dotnet\\tools"
+        - "C:\\Program Files\\JetBrains\\CLion 2025.3.2\\bin"
   -
     kind: "find-v1"
     backtrace:
@@ -1023,8 +1151,12 @@ events:
       - "C:/Program Files/Process Lasso/"
       - "C:/Program Files/CMake/bin/"
       - "C:/Program Files/MATLAB/R2025b/bin/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/Docker/Docker/resources/bin/"
       - "C:/Users/AskeV/AppData/Local/Microsoft/WindowsApps/"
       - "C:/Users/AskeV/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/AskeV/.dotnet/tools/"
+      - "C:/Program Files/JetBrains/CLion 2025.3.2/bin/"
     searched_directories:
       - "C:/msys64/ucrt64/bin/objcopy.com"
     found: "C:/msys64/ucrt64/bin/objcopy.exe"
@@ -1043,9 +1175,13 @@ events:
         - "C:\\Program Files\\Process Lasso\\"
         - "C:\\Program Files\\CMake\\bin"
         - "C:\\Program Files\\MATLAB\\R2025b\\bin"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
         - "C:\\Users\\AskeV\\AppData\\Local\\Microsoft\\WindowsApps"
         - "C:\\Users\\AskeV\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
         - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\Users\\AskeV\\.dotnet\\tools"
+        - "C:\\Program Files\\JetBrains\\CLion 2025.3.2\\bin"
   -
     kind: "find-v1"
     backtrace:
@@ -1080,8 +1216,12 @@ events:
       - "C:/Program Files/Process Lasso/"
       - "C:/Program Files/CMake/bin/"
       - "C:/Program Files/MATLAB/R2025b/bin/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/Docker/Docker/resources/bin/"
       - "C:/Users/AskeV/AppData/Local/Microsoft/WindowsApps/"
       - "C:/Users/AskeV/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/AskeV/.dotnet/tools/"
+      - "C:/Program Files/JetBrains/CLion 2025.3.2/bin/"
     searched_directories:
       - "C:/msys64/ucrt64/bin/readelf.com"
     found: "C:/msys64/ucrt64/bin/readelf.exe"
@@ -1100,9 +1240,13 @@ events:
         - "C:\\Program Files\\Process Lasso\\"
         - "C:\\Program Files\\CMake\\bin"
         - "C:\\Program Files\\MATLAB\\R2025b\\bin"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
         - "C:\\Users\\AskeV\\AppData\\Local\\Microsoft\\WindowsApps"
         - "C:\\Users\\AskeV\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
         - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\Users\\AskeV\\.dotnet\\tools"
+        - "C:\\Program Files\\JetBrains\\CLion 2025.3.2\\bin"
   -
     kind: "find-v1"
     backtrace:
@@ -1137,8 +1281,12 @@ events:
       - "C:/Program Files/Process Lasso/"
       - "C:/Program Files/CMake/bin/"
       - "C:/Program Files/MATLAB/R2025b/bin/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/Docker/Docker/resources/bin/"
       - "C:/Users/AskeV/AppData/Local/Microsoft/WindowsApps/"
       - "C:/Users/AskeV/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/AskeV/.dotnet/tools/"
+      - "C:/Program Files/JetBrains/CLion 2025.3.2/bin/"
     searched_directories:
       - "C:/msys64/ucrt64/bin/dlltool.com"
     found: "C:/msys64/ucrt64/bin/dlltool.exe"
@@ -1157,9 +1305,13 @@ events:
         - "C:\\Program Files\\Process Lasso\\"
         - "C:\\Program Files\\CMake\\bin"
         - "C:\\Program Files\\MATLAB\\R2025b\\bin"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
         - "C:\\Users\\AskeV\\AppData\\Local\\Microsoft\\WindowsApps"
         - "C:\\Users\\AskeV\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
         - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\Users\\AskeV\\.dotnet\\tools"
+        - "C:\\Program Files\\JetBrains\\CLion 2025.3.2\\bin"
   -
     kind: "find-v1"
     backtrace:
@@ -1194,8 +1346,12 @@ events:
       - "C:/Program Files/Process Lasso/"
       - "C:/Program Files/CMake/bin/"
       - "C:/Program Files/MATLAB/R2025b/bin/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/Docker/Docker/resources/bin/"
       - "C:/Users/AskeV/AppData/Local/Microsoft/WindowsApps/"
       - "C:/Users/AskeV/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/AskeV/.dotnet/tools/"
+      - "C:/Program Files/JetBrains/CLion 2025.3.2/bin/"
     searched_directories:
       - "C:/msys64/ucrt64/bin/addr2line.com"
     found: "C:/msys64/ucrt64/bin/addr2line.exe"
@@ -1214,9 +1370,13 @@ events:
         - "C:\\Program Files\\Process Lasso\\"
         - "C:\\Program Files\\CMake\\bin"
         - "C:\\Program Files\\MATLAB\\R2025b\\bin"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
         - "C:\\Users\\AskeV\\AppData\\Local\\Microsoft\\WindowsApps"
         - "C:\\Users\\AskeV\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
         - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\Users\\AskeV\\.dotnet\\tools"
+        - "C:\\Program Files\\JetBrains\\CLion 2025.3.2\\bin"
   -
     kind: "find-v1"
     backtrace:
@@ -1251,8 +1411,12 @@ events:
       - "C:/Program Files/Process Lasso/"
       - "C:/Program Files/CMake/bin/"
       - "C:/Program Files/MATLAB/R2025b/bin/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/Docker/Docker/resources/bin/"
       - "C:/Users/AskeV/AppData/Local/Microsoft/WindowsApps/"
       - "C:/Users/AskeV/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/AskeV/.dotnet/tools/"
+      - "C:/Program Files/JetBrains/CLion 2025.3.2/bin/"
     searched_directories:
       - "C:/msys64/ucrt64/bin/tapi.com"
       - "C:/msys64/ucrt64/bin/tapi.exe"
@@ -1296,12 +1460,24 @@ events:
       - "C:/Program Files/MATLAB/R2025b/bin/tapi.com"
       - "C:/Program Files/MATLAB/R2025b/bin/tapi.exe"
       - "C:/Program Files/MATLAB/R2025b/bin/tapi"
+      - "C:/Program Files/dotnet/tapi.com"
+      - "C:/Program Files/dotnet/tapi.exe"
+      - "C:/Program Files/dotnet/tapi"
+      - "C:/Program Files/Docker/Docker/resources/bin/tapi.com"
+      - "C:/Program Files/Docker/Docker/resources/bin/tapi.exe"
+      - "C:/Program Files/Docker/Docker/resources/bin/tapi"
       - "C:/Users/AskeV/AppData/Local/Microsoft/WindowsApps/tapi.com"
       - "C:/Users/AskeV/AppData/Local/Microsoft/WindowsApps/tapi.exe"
       - "C:/Users/AskeV/AppData/Local/Microsoft/WindowsApps/tapi"
       - "C:/Users/AskeV/AppData/Local/Programs/Microsoft VS Code/bin/tapi.com"
       - "C:/Users/AskeV/AppData/Local/Programs/Microsoft VS Code/bin/tapi.exe"
       - "C:/Users/AskeV/AppData/Local/Programs/Microsoft VS Code/bin/tapi"
+      - "C:/Users/AskeV/.dotnet/tools/tapi.com"
+      - "C:/Users/AskeV/.dotnet/tools/tapi.exe"
+      - "C:/Users/AskeV/.dotnet/tools/tapi"
+      - "C:/Program Files/JetBrains/CLion 2025.3.2/bin/tapi.com"
+      - "C:/Program Files/JetBrains/CLion 2025.3.2/bin/tapi.exe"
+      - "C:/Program Files/JetBrains/CLion 2025.3.2/bin/tapi"
     found: false
     search_context:
       ENV{PATH}:
@@ -1318,9 +1494,13 @@ events:
         - "C:\\Program Files\\Process Lasso\\"
         - "C:\\Program Files\\CMake\\bin"
         - "C:\\Program Files\\MATLAB\\R2025b\\bin"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
         - "C:\\Users\\AskeV\\AppData\\Local\\Microsoft\\WindowsApps"
         - "C:\\Users\\AskeV\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
         - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\Users\\AskeV\\.dotnet\\tools"
+        - "C:\\Program Files\\JetBrains\\CLion 2025.3.2\\bin"
   -
     kind: "find-v1"
     backtrace:
@@ -1358,8 +1538,12 @@ events:
       - "C:/Program Files/Process Lasso/"
       - "C:/Program Files/CMake/bin/"
       - "C:/Program Files/MATLAB/R2025b/bin/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/Docker/Docker/resources/bin/"
       - "C:/Users/AskeV/AppData/Local/Microsoft/WindowsApps/"
       - "C:/Users/AskeV/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/AskeV/.dotnet/tools/"
+      - "C:/Program Files/JetBrains/CLion 2025.3.2/bin/"
     searched_directories:
       - "C:/msys64/ucrt64/bin/gcc-ar-14.2.com"
       - "C:/msys64/ucrt64/bin/gcc-ar-14.2.exe"
@@ -1403,12 +1587,24 @@ events:
       - "C:/Program Files/MATLAB/R2025b/bin/gcc-ar-14.2.com"
       - "C:/Program Files/MATLAB/R2025b/bin/gcc-ar-14.2.exe"
       - "C:/Program Files/MATLAB/R2025b/bin/gcc-ar-14.2"
+      - "C:/Program Files/dotnet/gcc-ar-14.2.com"
+      - "C:/Program Files/dotnet/gcc-ar-14.2.exe"
+      - "C:/Program Files/dotnet/gcc-ar-14.2"
+      - "C:/Program Files/Docker/Docker/resources/bin/gcc-ar-14.2.com"
+      - "C:/Program Files/Docker/Docker/resources/bin/gcc-ar-14.2.exe"
+      - "C:/Program Files/Docker/Docker/resources/bin/gcc-ar-14.2"
       - "C:/Users/AskeV/AppData/Local/Microsoft/WindowsApps/gcc-ar-14.2.com"
       - "C:/Users/AskeV/AppData/Local/Microsoft/WindowsApps/gcc-ar-14.2.exe"
       - "C:/Users/AskeV/AppData/Local/Microsoft/WindowsApps/gcc-ar-14.2"
       - "C:/Users/AskeV/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ar-14.2.com"
       - "C:/Users/AskeV/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ar-14.2.exe"
       - "C:/Users/AskeV/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ar-14.2"
+      - "C:/Users/AskeV/.dotnet/tools/gcc-ar-14.2.com"
+      - "C:/Users/AskeV/.dotnet/tools/gcc-ar-14.2.exe"
+      - "C:/Users/AskeV/.dotnet/tools/gcc-ar-14.2"
+      - "C:/Program Files/JetBrains/CLion 2025.3.2/bin/gcc-ar-14.2.com"
+      - "C:/Program Files/JetBrains/CLion 2025.3.2/bin/gcc-ar-14.2.exe"
+      - "C:/Program Files/JetBrains/CLion 2025.3.2/bin/gcc-ar-14.2"
       - "C:/msys64/ucrt64/bin/gcc-ar-14.com"
       - "C:/msys64/ucrt64/bin/gcc-ar-14.exe"
       - "C:/msys64/ucrt64/bin/gcc-ar-14"
@@ -1451,12 +1647,24 @@ events:
       - "C:/Program Files/MATLAB/R2025b/bin/gcc-ar-14.com"
       - "C:/Program Files/MATLAB/R2025b/bin/gcc-ar-14.exe"
       - "C:/Program Files/MATLAB/R2025b/bin/gcc-ar-14"
+      - "C:/Program Files/dotnet/gcc-ar-14.com"
+      - "C:/Program Files/dotnet/gcc-ar-14.exe"
+      - "C:/Program Files/dotnet/gcc-ar-14"
+      - "C:/Program Files/Docker/Docker/resources/bin/gcc-ar-14.com"
+      - "C:/Program Files/Docker/Docker/resources/bin/gcc-ar-14.exe"
+      - "C:/Program Files/Docker/Docker/resources/bin/gcc-ar-14"
       - "C:/Users/AskeV/AppData/Local/Microsoft/WindowsApps/gcc-ar-14.com"
       - "C:/Users/AskeV/AppData/Local/Microsoft/WindowsApps/gcc-ar-14.exe"
       - "C:/Users/AskeV/AppData/Local/Microsoft/WindowsApps/gcc-ar-14"
       - "C:/Users/AskeV/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ar-14.com"
       - "C:/Users/AskeV/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ar-14.exe"
       - "C:/Users/AskeV/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ar-14"
+      - "C:/Users/AskeV/.dotnet/tools/gcc-ar-14.com"
+      - "C:/Users/AskeV/.dotnet/tools/gcc-ar-14.exe"
+      - "C:/Users/AskeV/.dotnet/tools/gcc-ar-14"
+      - "C:/Program Files/JetBrains/CLion 2025.3.2/bin/gcc-ar-14.com"
+      - "C:/Program Files/JetBrains/CLion 2025.3.2/bin/gcc-ar-14.exe"
+      - "C:/Program Files/JetBrains/CLion 2025.3.2/bin/gcc-ar-14"
       - "C:/msys64/ucrt64/bin/gcc-ar14.com"
       - "C:/msys64/ucrt64/bin/gcc-ar14.exe"
       - "C:/msys64/ucrt64/bin/gcc-ar14"
@@ -1499,12 +1707,24 @@ events:
       - "C:/Program Files/MATLAB/R2025b/bin/gcc-ar14.com"
       - "C:/Program Files/MATLAB/R2025b/bin/gcc-ar14.exe"
       - "C:/Program Files/MATLAB/R2025b/bin/gcc-ar14"
+      - "C:/Program Files/dotnet/gcc-ar14.com"
+      - "C:/Program Files/dotnet/gcc-ar14.exe"
+      - "C:/Program Files/dotnet/gcc-ar14"
+      - "C:/Program Files/Docker/Docker/resources/bin/gcc-ar14.com"
+      - "C:/Program Files/Docker/Docker/resources/bin/gcc-ar14.exe"
+      - "C:/Program Files/Docker/Docker/resources/bin/gcc-ar14"
       - "C:/Users/AskeV/AppData/Local/Microsoft/WindowsApps/gcc-ar14.com"
       - "C:/Users/AskeV/AppData/Local/Microsoft/WindowsApps/gcc-ar14.exe"
       - "C:/Users/AskeV/AppData/Local/Microsoft/WindowsApps/gcc-ar14"
       - "C:/Users/AskeV/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ar14.com"
       - "C:/Users/AskeV/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ar14.exe"
       - "C:/Users/AskeV/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ar14"
+      - "C:/Users/AskeV/.dotnet/tools/gcc-ar14.com"
+      - "C:/Users/AskeV/.dotnet/tools/gcc-ar14.exe"
+      - "C:/Users/AskeV/.dotnet/tools/gcc-ar14"
+      - "C:/Program Files/JetBrains/CLion 2025.3.2/bin/gcc-ar14.com"
+      - "C:/Program Files/JetBrains/CLion 2025.3.2/bin/gcc-ar14.exe"
+      - "C:/Program Files/JetBrains/CLion 2025.3.2/bin/gcc-ar14"
       - "C:/msys64/ucrt64/bin/gcc-ar.com"
     found: "C:/msys64/ucrt64/bin/gcc-ar.exe"
     search_context:
@@ -1522,9 +1742,13 @@ events:
         - "C:\\Program Files\\Process Lasso\\"
         - "C:\\Program Files\\CMake\\bin"
         - "C:\\Program Files\\MATLAB\\R2025b\\bin"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
         - "C:\\Users\\AskeV\\AppData\\Local\\Microsoft\\WindowsApps"
         - "C:\\Users\\AskeV\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
         - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\Users\\AskeV\\.dotnet\\tools"
+        - "C:\\Program Files\\JetBrains\\CLion 2025.3.2\\bin"
   -
     kind: "find-v1"
     backtrace:
@@ -1562,8 +1786,12 @@ events:
       - "C:/Program Files/Process Lasso/"
       - "C:/Program Files/CMake/bin/"
       - "C:/Program Files/MATLAB/R2025b/bin/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/Docker/Docker/resources/bin/"
       - "C:/Users/AskeV/AppData/Local/Microsoft/WindowsApps/"
       - "C:/Users/AskeV/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/AskeV/.dotnet/tools/"
+      - "C:/Program Files/JetBrains/CLion 2025.3.2/bin/"
     searched_directories:
       - "C:/msys64/ucrt64/bin/gcc-ranlib-14.2.com"
       - "C:/msys64/ucrt64/bin/gcc-ranlib-14.2.exe"
@@ -1607,12 +1835,24 @@ events:
       - "C:/Program Files/MATLAB/R2025b/bin/gcc-ranlib-14.2.com"
       - "C:/Program Files/MATLAB/R2025b/bin/gcc-ranlib-14.2.exe"
       - "C:/Program Files/MATLAB/R2025b/bin/gcc-ranlib-14.2"
+      - "C:/Program Files/dotnet/gcc-ranlib-14.2.com"
+      - "C:/Program Files/dotnet/gcc-ranlib-14.2.exe"
+      - "C:/Program Files/dotnet/gcc-ranlib-14.2"
+      - "C:/Program Files/Docker/Docker/resources/bin/gcc-ranlib-14.2.com"
+      - "C:/Program Files/Docker/Docker/resources/bin/gcc-ranlib-14.2.exe"
+      - "C:/Program Files/Docker/Docker/resources/bin/gcc-ranlib-14.2"
       - "C:/Users/AskeV/AppData/Local/Microsoft/WindowsApps/gcc-ranlib-14.2.com"
       - "C:/Users/AskeV/AppData/Local/Microsoft/WindowsApps/gcc-ranlib-14.2.exe"
       - "C:/Users/AskeV/AppData/Local/Microsoft/WindowsApps/gcc-ranlib-14.2"
       - "C:/Users/AskeV/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ranlib-14.2.com"
       - "C:/Users/AskeV/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ranlib-14.2.exe"
       - "C:/Users/AskeV/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ranlib-14.2"
+      - "C:/Users/AskeV/.dotnet/tools/gcc-ranlib-14.2.com"
+      - "C:/Users/AskeV/.dotnet/tools/gcc-ranlib-14.2.exe"
+      - "C:/Users/AskeV/.dotnet/tools/gcc-ranlib-14.2"
+      - "C:/Program Files/JetBrains/CLion 2025.3.2/bin/gcc-ranlib-14.2.com"
+      - "C:/Program Files/JetBrains/CLion 2025.3.2/bin/gcc-ranlib-14.2.exe"
+      - "C:/Program Files/JetBrains/CLion 2025.3.2/bin/gcc-ranlib-14.2"
       - "C:/msys64/ucrt64/bin/gcc-ranlib-14.com"
       - "C:/msys64/ucrt64/bin/gcc-ranlib-14.exe"
       - "C:/msys64/ucrt64/bin/gcc-ranlib-14"
@@ -1655,12 +1895,24 @@ events:
       - "C:/Program Files/MATLAB/R2025b/bin/gcc-ranlib-14.com"
       - "C:/Program Files/MATLAB/R2025b/bin/gcc-ranlib-14.exe"
       - "C:/Program Files/MATLAB/R2025b/bin/gcc-ranlib-14"
+      - "C:/Program Files/dotnet/gcc-ranlib-14.com"
+      - "C:/Program Files/dotnet/gcc-ranlib-14.exe"
+      - "C:/Program Files/dotnet/gcc-ranlib-14"
+      - "C:/Program Files/Docker/Docker/resources/bin/gcc-ranlib-14.com"
+      - "C:/Program Files/Docker/Docker/resources/bin/gcc-ranlib-14.exe"
+      - "C:/Program Files/Docker/Docker/resources/bin/gcc-ranlib-14"
       - "C:/Users/AskeV/AppData/Local/Microsoft/WindowsApps/gcc-ranlib-14.com"
       - "C:/Users/AskeV/AppData/Local/Microsoft/WindowsApps/gcc-ranlib-14.exe"
       - "C:/Users/AskeV/AppData/Local/Microsoft/WindowsApps/gcc-ranlib-14"
       - "C:/Users/AskeV/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ranlib-14.com"
       - "C:/Users/AskeV/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ranlib-14.exe"
       - "C:/Users/AskeV/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ranlib-14"
+      - "C:/Users/AskeV/.dotnet/tools/gcc-ranlib-14.com"
+      - "C:/Users/AskeV/.dotnet/tools/gcc-ranlib-14.exe"
+      - "C:/Users/AskeV/.dotnet/tools/gcc-ranlib-14"
+      - "C:/Program Files/JetBrains/CLion 2025.3.2/bin/gcc-ranlib-14.com"
+      - "C:/Program Files/JetBrains/CLion 2025.3.2/bin/gcc-ranlib-14.exe"
+      - "C:/Program Files/JetBrains/CLion 2025.3.2/bin/gcc-ranlib-14"
       - "C:/msys64/ucrt64/bin/gcc-ranlib14.com"
       - "C:/msys64/ucrt64/bin/gcc-ranlib14.exe"
       - "C:/msys64/ucrt64/bin/gcc-ranlib14"
@@ -1703,12 +1955,24 @@ events:
       - "C:/Program Files/MATLAB/R2025b/bin/gcc-ranlib14.com"
       - "C:/Program Files/MATLAB/R2025b/bin/gcc-ranlib14.exe"
       - "C:/Program Files/MATLAB/R2025b/bin/gcc-ranlib14"
+      - "C:/Program Files/dotnet/gcc-ranlib14.com"
+      - "C:/Program Files/dotnet/gcc-ranlib14.exe"
+      - "C:/Program Files/dotnet/gcc-ranlib14"
+      - "C:/Program Files/Docker/Docker/resources/bin/gcc-ranlib14.com"
+      - "C:/Program Files/Docker/Docker/resources/bin/gcc-ranlib14.exe"
+      - "C:/Program Files/Docker/Docker/resources/bin/gcc-ranlib14"
       - "C:/Users/AskeV/AppData/Local/Microsoft/WindowsApps/gcc-ranlib14.com"
       - "C:/Users/AskeV/AppData/Local/Microsoft/WindowsApps/gcc-ranlib14.exe"
       - "C:/Users/AskeV/AppData/Local/Microsoft/WindowsApps/gcc-ranlib14"
       - "C:/Users/AskeV/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ranlib14.com"
       - "C:/Users/AskeV/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ranlib14.exe"
       - "C:/Users/AskeV/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ranlib14"
+      - "C:/Users/AskeV/.dotnet/tools/gcc-ranlib14.com"
+      - "C:/Users/AskeV/.dotnet/tools/gcc-ranlib14.exe"
+      - "C:/Users/AskeV/.dotnet/tools/gcc-ranlib14"
+      - "C:/Program Files/JetBrains/CLion 2025.3.2/bin/gcc-ranlib14.com"
+      - "C:/Program Files/JetBrains/CLion 2025.3.2/bin/gcc-ranlib14.exe"
+      - "C:/Program Files/JetBrains/CLion 2025.3.2/bin/gcc-ranlib14"
       - "C:/msys64/ucrt64/bin/gcc-ranlib.com"
     found: "C:/msys64/ucrt64/bin/gcc-ranlib.exe"
     search_context:
@@ -1726,9 +1990,13 @@ events:
         - "C:\\Program Files\\Process Lasso\\"
         - "C:\\Program Files\\CMake\\bin"
         - "C:\\Program Files\\MATLAB\\R2025b\\bin"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
         - "C:\\Users\\AskeV\\AppData\\Local\\Microsoft\\WindowsApps"
         - "C:\\Users\\AskeV\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
         - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\Users\\AskeV\\.dotnet\\tools"
+        - "C:\\Program Files\\JetBrains\\CLion 2025.3.2\\bin"
   -
     kind: "find-v1"
     backtrace:
@@ -1773,9 +2041,13 @@ events:
         - "C:\\Program Files\\Process Lasso\\"
         - "C:\\Program Files\\CMake\\bin"
         - "C:\\Program Files\\MATLAB\\R2025b\\bin"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
         - "C:\\Users\\AskeV\\AppData\\Local\\Microsoft\\WindowsApps"
         - "C:\\Users\\AskeV\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
         - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\Users\\AskeV\\.dotnet\\tools"
+        - "C:\\Program Files\\JetBrains\\CLion 2025.3.2\\bin"
   -
     kind: "find-v1"
     backtrace:
@@ -1816,9 +2088,13 @@ events:
         - "C:\\Program Files\\Process Lasso\\"
         - "C:\\Program Files\\CMake\\bin"
         - "C:\\Program Files\\MATLAB\\R2025b\\bin"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
         - "C:\\Users\\AskeV\\AppData\\Local\\Microsoft\\WindowsApps"
         - "C:\\Users\\AskeV\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
         - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\Users\\AskeV\\.dotnet\\tools"
+        - "C:\\Program Files\\JetBrains\\CLion 2025.3.2\\bin"
   -
     kind: "message-v1"
     backtrace:
@@ -1878,8 +2154,12 @@ events:
       - "C:/Program Files/Process Lasso/"
       - "C:/Program Files/CMake/bin/"
       - "C:/Program Files/MATLAB/R2025b/bin/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/Docker/Docker/resources/bin/"
       - "C:/Users/AskeV/AppData/Local/Microsoft/WindowsApps/"
       - "C:/Users/AskeV/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/AskeV/.dotnet/tools/"
+      - "C:/Program Files/JetBrains/CLion 2025.3.2/bin/"
     searched_directories:
       - "C:/msys64/ucrt64/bin/gcc-ar-14.2.com"
       - "C:/msys64/ucrt64/bin/gcc-ar-14.2.exe"
@@ -1923,12 +2203,24 @@ events:
       - "C:/Program Files/MATLAB/R2025b/bin/gcc-ar-14.2.com"
       - "C:/Program Files/MATLAB/R2025b/bin/gcc-ar-14.2.exe"
       - "C:/Program Files/MATLAB/R2025b/bin/gcc-ar-14.2"
+      - "C:/Program Files/dotnet/gcc-ar-14.2.com"
+      - "C:/Program Files/dotnet/gcc-ar-14.2.exe"
+      - "C:/Program Files/dotnet/gcc-ar-14.2"
+      - "C:/Program Files/Docker/Docker/resources/bin/gcc-ar-14.2.com"
+      - "C:/Program Files/Docker/Docker/resources/bin/gcc-ar-14.2.exe"
+      - "C:/Program Files/Docker/Docker/resources/bin/gcc-ar-14.2"
       - "C:/Users/AskeV/AppData/Local/Microsoft/WindowsApps/gcc-ar-14.2.com"
       - "C:/Users/AskeV/AppData/Local/Microsoft/WindowsApps/gcc-ar-14.2.exe"
       - "C:/Users/AskeV/AppData/Local/Microsoft/WindowsApps/gcc-ar-14.2"
       - "C:/Users/AskeV/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ar-14.2.com"
       - "C:/Users/AskeV/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ar-14.2.exe"
       - "C:/Users/AskeV/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ar-14.2"
+      - "C:/Users/AskeV/.dotnet/tools/gcc-ar-14.2.com"
+      - "C:/Users/AskeV/.dotnet/tools/gcc-ar-14.2.exe"
+      - "C:/Users/AskeV/.dotnet/tools/gcc-ar-14.2"
+      - "C:/Program Files/JetBrains/CLion 2025.3.2/bin/gcc-ar-14.2.com"
+      - "C:/Program Files/JetBrains/CLion 2025.3.2/bin/gcc-ar-14.2.exe"
+      - "C:/Program Files/JetBrains/CLion 2025.3.2/bin/gcc-ar-14.2"
       - "C:/msys64/ucrt64/bin/gcc-ar-14.com"
       - "C:/msys64/ucrt64/bin/gcc-ar-14.exe"
       - "C:/msys64/ucrt64/bin/gcc-ar-14"
@@ -1971,12 +2263,24 @@ events:
       - "C:/Program Files/MATLAB/R2025b/bin/gcc-ar-14.com"
       - "C:/Program Files/MATLAB/R2025b/bin/gcc-ar-14.exe"
       - "C:/Program Files/MATLAB/R2025b/bin/gcc-ar-14"
+      - "C:/Program Files/dotnet/gcc-ar-14.com"
+      - "C:/Program Files/dotnet/gcc-ar-14.exe"
+      - "C:/Program Files/dotnet/gcc-ar-14"
+      - "C:/Program Files/Docker/Docker/resources/bin/gcc-ar-14.com"
+      - "C:/Program Files/Docker/Docker/resources/bin/gcc-ar-14.exe"
+      - "C:/Program Files/Docker/Docker/resources/bin/gcc-ar-14"
       - "C:/Users/AskeV/AppData/Local/Microsoft/WindowsApps/gcc-ar-14.com"
       - "C:/Users/AskeV/AppData/Local/Microsoft/WindowsApps/gcc-ar-14.exe"
       - "C:/Users/AskeV/AppData/Local/Microsoft/WindowsApps/gcc-ar-14"
       - "C:/Users/AskeV/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ar-14.com"
       - "C:/Users/AskeV/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ar-14.exe"
       - "C:/Users/AskeV/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ar-14"
+      - "C:/Users/AskeV/.dotnet/tools/gcc-ar-14.com"
+      - "C:/Users/AskeV/.dotnet/tools/gcc-ar-14.exe"
+      - "C:/Users/AskeV/.dotnet/tools/gcc-ar-14"
+      - "C:/Program Files/JetBrains/CLion 2025.3.2/bin/gcc-ar-14.com"
+      - "C:/Program Files/JetBrains/CLion 2025.3.2/bin/gcc-ar-14.exe"
+      - "C:/Program Files/JetBrains/CLion 2025.3.2/bin/gcc-ar-14"
       - "C:/msys64/ucrt64/bin/gcc-ar14.com"
       - "C:/msys64/ucrt64/bin/gcc-ar14.exe"
       - "C:/msys64/ucrt64/bin/gcc-ar14"
@@ -2019,12 +2323,24 @@ events:
       - "C:/Program Files/MATLAB/R2025b/bin/gcc-ar14.com"
       - "C:/Program Files/MATLAB/R2025b/bin/gcc-ar14.exe"
       - "C:/Program Files/MATLAB/R2025b/bin/gcc-ar14"
+      - "C:/Program Files/dotnet/gcc-ar14.com"
+      - "C:/Program Files/dotnet/gcc-ar14.exe"
+      - "C:/Program Files/dotnet/gcc-ar14"
+      - "C:/Program Files/Docker/Docker/resources/bin/gcc-ar14.com"
+      - "C:/Program Files/Docker/Docker/resources/bin/gcc-ar14.exe"
+      - "C:/Program Files/Docker/Docker/resources/bin/gcc-ar14"
       - "C:/Users/AskeV/AppData/Local/Microsoft/WindowsApps/gcc-ar14.com"
       - "C:/Users/AskeV/AppData/Local/Microsoft/WindowsApps/gcc-ar14.exe"
       - "C:/Users/AskeV/AppData/Local/Microsoft/WindowsApps/gcc-ar14"
       - "C:/Users/AskeV/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ar14.com"
       - "C:/Users/AskeV/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ar14.exe"
       - "C:/Users/AskeV/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ar14"
+      - "C:/Users/AskeV/.dotnet/tools/gcc-ar14.com"
+      - "C:/Users/AskeV/.dotnet/tools/gcc-ar14.exe"
+      - "C:/Users/AskeV/.dotnet/tools/gcc-ar14"
+      - "C:/Program Files/JetBrains/CLion 2025.3.2/bin/gcc-ar14.com"
+      - "C:/Program Files/JetBrains/CLion 2025.3.2/bin/gcc-ar14.exe"
+      - "C:/Program Files/JetBrains/CLion 2025.3.2/bin/gcc-ar14"
       - "C:/msys64/ucrt64/bin/gcc-ar.com"
     found: "C:/msys64/ucrt64/bin/gcc-ar.exe"
     search_context:
@@ -2042,9 +2358,13 @@ events:
         - "C:\\Program Files\\Process Lasso\\"
         - "C:\\Program Files\\CMake\\bin"
         - "C:\\Program Files\\MATLAB\\R2025b\\bin"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
         - "C:\\Users\\AskeV\\AppData\\Local\\Microsoft\\WindowsApps"
         - "C:\\Users\\AskeV\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
         - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\Users\\AskeV\\.dotnet\\tools"
+        - "C:\\Program Files\\JetBrains\\CLion 2025.3.2\\bin"
   -
     kind: "find-v1"
     backtrace:
@@ -2082,8 +2402,12 @@ events:
       - "C:/Program Files/Process Lasso/"
       - "C:/Program Files/CMake/bin/"
       - "C:/Program Files/MATLAB/R2025b/bin/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/Docker/Docker/resources/bin/"
       - "C:/Users/AskeV/AppData/Local/Microsoft/WindowsApps/"
       - "C:/Users/AskeV/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/AskeV/.dotnet/tools/"
+      - "C:/Program Files/JetBrains/CLion 2025.3.2/bin/"
     searched_directories:
       - "C:/msys64/ucrt64/bin/gcc-ranlib-14.2.com"
       - "C:/msys64/ucrt64/bin/gcc-ranlib-14.2.exe"
@@ -2127,12 +2451,24 @@ events:
       - "C:/Program Files/MATLAB/R2025b/bin/gcc-ranlib-14.2.com"
       - "C:/Program Files/MATLAB/R2025b/bin/gcc-ranlib-14.2.exe"
       - "C:/Program Files/MATLAB/R2025b/bin/gcc-ranlib-14.2"
+      - "C:/Program Files/dotnet/gcc-ranlib-14.2.com"
+      - "C:/Program Files/dotnet/gcc-ranlib-14.2.exe"
+      - "C:/Program Files/dotnet/gcc-ranlib-14.2"
+      - "C:/Program Files/Docker/Docker/resources/bin/gcc-ranlib-14.2.com"
+      - "C:/Program Files/Docker/Docker/resources/bin/gcc-ranlib-14.2.exe"
+      - "C:/Program Files/Docker/Docker/resources/bin/gcc-ranlib-14.2"
       - "C:/Users/AskeV/AppData/Local/Microsoft/WindowsApps/gcc-ranlib-14.2.com"
       - "C:/Users/AskeV/AppData/Local/Microsoft/WindowsApps/gcc-ranlib-14.2.exe"
       - "C:/Users/AskeV/AppData/Local/Microsoft/WindowsApps/gcc-ranlib-14.2"
       - "C:/Users/AskeV/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ranlib-14.2.com"
       - "C:/Users/AskeV/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ranlib-14.2.exe"
       - "C:/Users/AskeV/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ranlib-14.2"
+      - "C:/Users/AskeV/.dotnet/tools/gcc-ranlib-14.2.com"
+      - "C:/Users/AskeV/.dotnet/tools/gcc-ranlib-14.2.exe"
+      - "C:/Users/AskeV/.dotnet/tools/gcc-ranlib-14.2"
+      - "C:/Program Files/JetBrains/CLion 2025.3.2/bin/gcc-ranlib-14.2.com"
+      - "C:/Program Files/JetBrains/CLion 2025.3.2/bin/gcc-ranlib-14.2.exe"
+      - "C:/Program Files/JetBrains/CLion 2025.3.2/bin/gcc-ranlib-14.2"
       - "C:/msys64/ucrt64/bin/gcc-ranlib-14.com"
       - "C:/msys64/ucrt64/bin/gcc-ranlib-14.exe"
       - "C:/msys64/ucrt64/bin/gcc-ranlib-14"
@@ -2175,12 +2511,24 @@ events:
       - "C:/Program Files/MATLAB/R2025b/bin/gcc-ranlib-14.com"
       - "C:/Program Files/MATLAB/R2025b/bin/gcc-ranlib-14.exe"
       - "C:/Program Files/MATLAB/R2025b/bin/gcc-ranlib-14"
+      - "C:/Program Files/dotnet/gcc-ranlib-14.com"
+      - "C:/Program Files/dotnet/gcc-ranlib-14.exe"
+      - "C:/Program Files/dotnet/gcc-ranlib-14"
+      - "C:/Program Files/Docker/Docker/resources/bin/gcc-ranlib-14.com"
+      - "C:/Program Files/Docker/Docker/resources/bin/gcc-ranlib-14.exe"
+      - "C:/Program Files/Docker/Docker/resources/bin/gcc-ranlib-14"
       - "C:/Users/AskeV/AppData/Local/Microsoft/WindowsApps/gcc-ranlib-14.com"
       - "C:/Users/AskeV/AppData/Local/Microsoft/WindowsApps/gcc-ranlib-14.exe"
       - "C:/Users/AskeV/AppData/Local/Microsoft/WindowsApps/gcc-ranlib-14"
       - "C:/Users/AskeV/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ranlib-14.com"
       - "C:/Users/AskeV/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ranlib-14.exe"
       - "C:/Users/AskeV/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ranlib-14"
+      - "C:/Users/AskeV/.dotnet/tools/gcc-ranlib-14.com"
+      - "C:/Users/AskeV/.dotnet/tools/gcc-ranlib-14.exe"
+      - "C:/Users/AskeV/.dotnet/tools/gcc-ranlib-14"
+      - "C:/Program Files/JetBrains/CLion 2025.3.2/bin/gcc-ranlib-14.com"
+      - "C:/Program Files/JetBrains/CLion 2025.3.2/bin/gcc-ranlib-14.exe"
+      - "C:/Program Files/JetBrains/CLion 2025.3.2/bin/gcc-ranlib-14"
       - "C:/msys64/ucrt64/bin/gcc-ranlib14.com"
       - "C:/msys64/ucrt64/bin/gcc-ranlib14.exe"
       - "C:/msys64/ucrt64/bin/gcc-ranlib14"
@@ -2223,12 +2571,24 @@ events:
       - "C:/Program Files/MATLAB/R2025b/bin/gcc-ranlib14.com"
       - "C:/Program Files/MATLAB/R2025b/bin/gcc-ranlib14.exe"
       - "C:/Program Files/MATLAB/R2025b/bin/gcc-ranlib14"
+      - "C:/Program Files/dotnet/gcc-ranlib14.com"
+      - "C:/Program Files/dotnet/gcc-ranlib14.exe"
+      - "C:/Program Files/dotnet/gcc-ranlib14"
+      - "C:/Program Files/Docker/Docker/resources/bin/gcc-ranlib14.com"
+      - "C:/Program Files/Docker/Docker/resources/bin/gcc-ranlib14.exe"
+      - "C:/Program Files/Docker/Docker/resources/bin/gcc-ranlib14"
       - "C:/Users/AskeV/AppData/Local/Microsoft/WindowsApps/gcc-ranlib14.com"
       - "C:/Users/AskeV/AppData/Local/Microsoft/WindowsApps/gcc-ranlib14.exe"
       - "C:/Users/AskeV/AppData/Local/Microsoft/WindowsApps/gcc-ranlib14"
       - "C:/Users/AskeV/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ranlib14.com"
       - "C:/Users/AskeV/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ranlib14.exe"
       - "C:/Users/AskeV/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ranlib14"
+      - "C:/Users/AskeV/.dotnet/tools/gcc-ranlib14.com"
+      - "C:/Users/AskeV/.dotnet/tools/gcc-ranlib14.exe"
+      - "C:/Users/AskeV/.dotnet/tools/gcc-ranlib14"
+      - "C:/Program Files/JetBrains/CLion 2025.3.2/bin/gcc-ranlib14.com"
+      - "C:/Program Files/JetBrains/CLion 2025.3.2/bin/gcc-ranlib14.exe"
+      - "C:/Program Files/JetBrains/CLion 2025.3.2/bin/gcc-ranlib14"
       - "C:/msys64/ucrt64/bin/gcc-ranlib.com"
     found: "C:/msys64/ucrt64/bin/gcc-ranlib.exe"
     search_context:
@@ -2246,9 +2606,13 @@ events:
         - "C:\\Program Files\\Process Lasso\\"
         - "C:\\Program Files\\CMake\\bin"
         - "C:\\Program Files\\MATLAB\\R2025b\\bin"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
         - "C:\\Users\\AskeV\\AppData\\Local\\Microsoft\\WindowsApps"
         - "C:\\Users\\AskeV\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
         - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\Users\\AskeV\\.dotnet\\tools"
+        - "C:\\Program Files\\JetBrains\\CLion 2025.3.2\\bin"
   -
     kind: "find-v1"
     backtrace:
@@ -2285,9 +2649,13 @@ events:
       - "C:/Program Files/Process Lasso/"
       - "C:/Program Files/CMake/bin/"
       - "C:/Program Files/MATLAB/R2025b/bin/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/Docker/Docker/resources/bin/"
       - "C:/Users/AskeV/AppData/Local/Microsoft/WindowsApps/"
       - "C:/Users/AskeV/AppData/Local/Programs/Microsoft VS Code/bin/"
       - "C:/msys64/ucrt64/bin/"
+      - "C:/Users/AskeV/.dotnet/tools/"
+      - "C:/Program Files/JetBrains/CLion 2025.3.2/bin/"
       - "C:/Program Files/bin/"
       - "C:/Program Files/sbin/"
       - "C:/Program Files/"
@@ -2340,6 +2708,12 @@ events:
       - "C:/Program Files/MATLAB/R2025b/bin/windres.com"
       - "C:/Program Files/MATLAB/R2025b/bin/windres.exe"
       - "C:/Program Files/MATLAB/R2025b/bin/windres"
+      - "C:/Program Files/dotnet/windres.com"
+      - "C:/Program Files/dotnet/windres.exe"
+      - "C:/Program Files/dotnet/windres"
+      - "C:/Program Files/Docker/Docker/resources/bin/windres.com"
+      - "C:/Program Files/Docker/Docker/resources/bin/windres.exe"
+      - "C:/Program Files/Docker/Docker/resources/bin/windres"
       - "C:/Users/AskeV/AppData/Local/Microsoft/WindowsApps/windres.com"
       - "C:/Users/AskeV/AppData/Local/Microsoft/WindowsApps/windres.exe"
       - "C:/Users/AskeV/AppData/Local/Microsoft/WindowsApps/windres"
@@ -2363,9 +2737,13 @@ events:
         - "C:\\Program Files\\Process Lasso\\"
         - "C:\\Program Files\\CMake\\bin"
         - "C:\\Program Files\\MATLAB\\R2025b\\bin"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
         - "C:\\Users\\AskeV\\AppData\\Local\\Microsoft\\WindowsApps"
         - "C:\\Users\\AskeV\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
         - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\Users\\AskeV\\.dotnet\\tools"
+        - "C:\\Program Files\\JetBrains\\CLion 2025.3.2\\bin"
       CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/TetrisSpil"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "C:/Program Files"
@@ -2381,8 +2759,8 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "C:/Users/AskeV/OneDrive - Aarhus universitet/UNI/RayLib Tetris/build/CMakeFiles/CMakeScratch/TryCompile-ciqszj"
-      binary: "C:/Users/AskeV/OneDrive - Aarhus universitet/UNI/RayLib Tetris/build/CMakeFiles/CMakeScratch/TryCompile-ciqszj"
+      source: "C:/Users/AskeV/OneDrive - Aarhus universitet/UNI/RayLib Tetris/build/CMakeFiles/CMakeScratch/TryCompile-wjgpwg"
+      binary: "C:/Users/AskeV/OneDrive - Aarhus universitet/UNI/RayLib Tetris/build/CMakeFiles/CMakeScratch/TryCompile-wjgpwg"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -2391,10 +2769,10 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/AskeV/OneDrive - Aarhus universitet/UNI/RayLib Tetris/build/CMakeFiles/CMakeScratch/TryCompile-ciqszj'
+        Change Dir: 'C:/Users/AskeV/OneDrive - Aarhus universitet/UNI/RayLib Tetris/build/CMakeFiles/CMakeScratch/TryCompile-wjgpwg'
         
-        Run Build Command(s): C:/msys64/ucrt64/bin/ninja.exe -v cmTC_22db6
-        [1/2] C:\\msys64\\ucrt64\\bin\\cc.exe   -v -o CMakeFiles/cmTC_22db6.dir/CMakeCCompilerABI.c.obj -c "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeCCompilerABI.c"
+        Run Build Command(s): C:/msys64/ucrt64/bin/ninja.exe -v cmTC_2b79b
+        [1/2] C:\\msys64\\ucrt64\\bin\\cc.exe   -v -o CMakeFiles/cmTC_2b79b.dir/CMakeCCompilerABI.c.obj -c "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeCCompilerABI.c"
         Using built-in specs.
         COLLECT_GCC=C:\\msys64\\ucrt64\\bin\\cc.exe
         Target: x86_64-w64-mingw32
@@ -2402,8 +2780,8 @@ events:
         Thread model: posix
         Supported LTO compression algorithms: zlib zstd
         gcc version 14.2.0 (Rev2, Built by MSYS2 project) 
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_22db6.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_22db6.dir/'
-         C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/cc1.exe -quiet -v -iprefix C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/ -D_REENTRANT C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_22db6.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=nocona -version -o C:\\Users\\AskeV\\AppData\\Local\\Temp\\ccNhUgGg.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_2b79b.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_2b79b.dir/'
+         C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/cc1.exe -quiet -v -iprefix C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/ -D_REENTRANT C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_2b79b.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=nocona -version -o C:\\Users\\AskeV\\AppData\\Local\\Temp\\ccWNq0ir.s
         GNU C17 (Rev2, Built by MSYS2 project) version 14.2.0 (x86_64-w64-mingw32)
         	compiled by GNU C version 14.2.0, GMP version 6.3.0, MPFR version 4.2.1, MPC version 1.3.1, isl version isl-0.27-GMP
         
@@ -2422,13 +2800,13 @@ events:
          C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/include-fixed
         End of search list.
         Compiler executable checksum: bfed5edf6a89cec0a35941200a765959
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_22db6.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_22db6.dir/'
-         C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles/cmTC_22db6.dir/CMakeCCompilerABI.c.obj C:\\Users\\AskeV\\AppData\\Local\\Temp\\ccNhUgGg.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_2b79b.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_2b79b.dir/'
+         C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles/cmTC_2b79b.dir/CMakeCCompilerABI.c.obj C:\\Users\\AskeV\\AppData\\Local\\Temp\\ccWNq0ir.s
         GNU assembler version 2.43.1 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.43.1
         COMPILER_PATH=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/;C:/msys64/ucrt64/bin/../lib/gcc/;C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/
         LIBRARY_PATH=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/;C:/msys64/ucrt64/bin/../lib/gcc/;C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib/;C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/;C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_22db6.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_22db6.dir/CMakeCCompilerABI.c.'
-        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\msys64\\ucrt64\\bin\\cc.exe  -v -Wl,-v CMakeFiles/cmTC_22db6.dir/CMakeCCompilerABI.c.obj -o cmTC_22db6.exe -Wl,--out-implib,libcmTC_22db6.dll.a -Wl,--major-image-version,0,--minor-image-version,0   && cd ."
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_2b79b.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_2b79b.dir/CMakeCCompilerABI.c.'
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\msys64\\ucrt64\\bin\\cc.exe  -v -Wl,-v CMakeFiles/cmTC_2b79b.dir/CMakeCCompilerABI.c.obj -o cmTC_2b79b.exe -Wl,--out-implib,libcmTC_2b79b.dll.a -Wl,--major-image-version,0,--minor-image-version,0   && cd ."
         Using built-in specs.
         COLLECT_GCC=C:\\msys64\\ucrt64\\bin\\cc.exe
         COLLECT_LTO_WRAPPER=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/lto-wrapper.exe
@@ -2439,12 +2817,12 @@ events:
         gcc version 14.2.0 (Rev2, Built by MSYS2 project) 
         COMPILER_PATH=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/;C:/msys64/ucrt64/bin/../lib/gcc/;C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/
         LIBRARY_PATH=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/;C:/msys64/ucrt64/bin/../lib/gcc/;C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib/;C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/;C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_22db6.exe' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_22db6.'
-         C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/collect2.exe -plugin C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/liblto_plugin.dll -plugin-opt=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\AskeV\\AppData\\Local\\Temp\\ccSxq9Am.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_22db6.exe C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib/crt2.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/crtbegin.o -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0 -LC:/msys64/ucrt64/bin/../lib/gcc -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../.. -v CMakeFiles/cmTC_22db6.dir/CMakeCCompilerABI.c.obj --out-implib libcmTC_22db6.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib/default-manifest.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/crtend.o
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_2b79b.exe' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_2b79b.'
+         C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/collect2.exe -plugin C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/liblto_plugin.dll -plugin-opt=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\AskeV\\AppData\\Local\\Temp\\ccogwN9I.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_2b79b.exe C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib/crt2.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/crtbegin.o -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0 -LC:/msys64/ucrt64/bin/../lib/gcc -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../.. -v CMakeFiles/cmTC_2b79b.dir/CMakeCCompilerABI.c.obj --out-implib libcmTC_2b79b.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib/default-manifest.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/crtend.o
         collect2 version 14.2.0
-        C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe -plugin C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/liblto_plugin.dll -plugin-opt=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\AskeV\\AppData\\Local\\Temp\\ccSxq9Am.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_22db6.exe C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib/crt2.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/crtbegin.o -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0 -LC:/msys64/ucrt64/bin/../lib/gcc -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../.. -v CMakeFiles/cmTC_22db6.dir/CMakeCCompilerABI.c.obj --out-implib libcmTC_22db6.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib/default-manifest.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/crtend.o
+        C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe -plugin C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/liblto_plugin.dll -plugin-opt=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\AskeV\\AppData\\Local\\Temp\\ccogwN9I.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_2b79b.exe C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib/crt2.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/crtbegin.o -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0 -LC:/msys64/ucrt64/bin/../lib/gcc -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../.. -v CMakeFiles/cmTC_2b79b.dir/CMakeCCompilerABI.c.obj --out-implib libcmTC_2b79b.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib/default-manifest.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/crtend.o
         GNU ld (GNU Binutils) 2.43.1
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_22db6.exe' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_22db6.'
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_2b79b.exe' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_2b79b.'
         
       exitCode: 0
   -
@@ -2477,10 +2855,10 @@ events:
       Parsed C implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
-        ignore line: [Change Dir: 'C:/Users/AskeV/OneDrive - Aarhus universitet/UNI/RayLib Tetris/build/CMakeFiles/CMakeScratch/TryCompile-ciqszj']
+        ignore line: [Change Dir: 'C:/Users/AskeV/OneDrive - Aarhus universitet/UNI/RayLib Tetris/build/CMakeFiles/CMakeScratch/TryCompile-wjgpwg']
         ignore line: []
-        ignore line: [Run Build Command(s): C:/msys64/ucrt64/bin/ninja.exe -v cmTC_22db6]
-        ignore line: [[1/2] C:\\msys64\\ucrt64\\bin\\cc.exe   -v -o CMakeFiles/cmTC_22db6.dir/CMakeCCompilerABI.c.obj -c "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeCCompilerABI.c"]
+        ignore line: [Run Build Command(s): C:/msys64/ucrt64/bin/ninja.exe -v cmTC_2b79b]
+        ignore line: [[1/2] C:\\msys64\\ucrt64\\bin\\cc.exe   -v -o CMakeFiles/cmTC_2b79b.dir/CMakeCCompilerABI.c.obj -c "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeCCompilerABI.c"]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=C:\\msys64\\ucrt64\\bin\\cc.exe]
         ignore line: [Target: x86_64-w64-mingw32]
@@ -2488,8 +2866,8 @@ events:
         ignore line: [Thread model: posix]
         ignore line: [Supported LTO compression algorithms: zlib zstd]
         ignore line: [gcc version 14.2.0 (Rev2  Built by MSYS2 project) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_22db6.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_22db6.dir/']
-        ignore line: [ C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/cc1.exe -quiet -v -iprefix C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/ -D_REENTRANT C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_22db6.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=nocona -version -o C:\\Users\\AskeV\\AppData\\Local\\Temp\\ccNhUgGg.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_2b79b.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_2b79b.dir/']
+        ignore line: [ C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/cc1.exe -quiet -v -iprefix C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/ -D_REENTRANT C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_2b79b.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=nocona -version -o C:\\Users\\AskeV\\AppData\\Local\\Temp\\ccWNq0ir.s]
         ignore line: [GNU C17 (Rev2  Built by MSYS2 project) version 14.2.0 (x86_64-w64-mingw32)]
         ignore line: [	compiled by GNU C version 14.2.0  GMP version 6.3.0  MPFR version 4.2.1  MPC version 1.3.1  isl version isl-0.27-GMP]
         ignore line: []
@@ -2508,8 +2886,8 @@ events:
         ignore line: [ C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/include-fixed]
         ignore line: [End of search list.]
         ignore line: [Compiler executable checksum: bfed5edf6a89cec0a35941200a765959]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_22db6.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_22db6.dir/']
-        ignore line: [ C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles/cmTC_22db6.dir/CMakeCCompilerABI.c.obj C:\\Users\\AskeV\\AppData\\Local\\Temp\\ccNhUgGg.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_2b79b.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_2b79b.dir/']
+        ignore line: [ C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles/cmTC_2b79b.dir/CMakeCCompilerABI.c.obj C:\\Users\\AskeV\\AppData\\Local\\Temp\\ccWNq0ir.s]
         ignore line: [GNU assembler version 2.43.1 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.43.1]
         ignore line: [COMPILER_PATH=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/]
         ignore line: [C:/msys64/ucrt64/bin/../lib/gcc/]
@@ -2520,8 +2898,8 @@ events:
         ignore line: [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib/]
         ignore line: [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/]
         ignore line: [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_22db6.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_22db6.dir/CMakeCCompilerABI.c.']
-        ignore line: [[2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\msys64\\ucrt64\\bin\\cc.exe  -v -Wl -v CMakeFiles/cmTC_22db6.dir/CMakeCCompilerABI.c.obj -o cmTC_22db6.exe -Wl --out-implib libcmTC_22db6.dll.a -Wl --major-image-version 0 --minor-image-version 0   && cd ."]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_2b79b.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_2b79b.dir/CMakeCCompilerABI.c.']
+        ignore line: [[2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\msys64\\ucrt64\\bin\\cc.exe  -v -Wl -v CMakeFiles/cmTC_2b79b.dir/CMakeCCompilerABI.c.obj -o cmTC_2b79b.exe -Wl --out-implib libcmTC_2b79b.dll.a -Wl --major-image-version 0 --minor-image-version 0   && cd ."]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=C:\\msys64\\ucrt64\\bin\\cc.exe]
         ignore line: [COLLECT_LTO_WRAPPER=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/lto-wrapper.exe]
@@ -2539,13 +2917,13 @@ events:
         ignore line: [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib/]
         ignore line: [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/]
         ignore line: [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_22db6.exe' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_22db6.']
-        link line: [ C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/collect2.exe -plugin C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/liblto_plugin.dll -plugin-opt=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\AskeV\\AppData\\Local\\Temp\\ccSxq9Am.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_22db6.exe C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib/crt2.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/crtbegin.o -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0 -LC:/msys64/ucrt64/bin/../lib/gcc -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../.. -v CMakeFiles/cmTC_22db6.dir/CMakeCCompilerABI.c.obj --out-implib libcmTC_22db6.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib/default-manifest.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/crtend.o]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_2b79b.exe' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_2b79b.']
+        link line: [ C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/collect2.exe -plugin C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/liblto_plugin.dll -plugin-opt=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\AskeV\\AppData\\Local\\Temp\\ccogwN9I.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_2b79b.exe C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib/crt2.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/crtbegin.o -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0 -LC:/msys64/ucrt64/bin/../lib/gcc -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../.. -v CMakeFiles/cmTC_2b79b.dir/CMakeCCompilerABI.c.obj --out-implib libcmTC_2b79b.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib/default-manifest.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/crtend.o]
           arg [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/collect2.exe] ==> ignore
           arg [-plugin] ==> ignore
           arg [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/liblto_plugin.dll] ==> ignore
           arg [-plugin-opt=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/lto-wrapper.exe] ==> ignore
-          arg [-plugin-opt=-fresolution=C:\\Users\\AskeV\\AppData\\Local\\Temp\\ccSxq9Am.res] ==> ignore
+          arg [-plugin-opt=-fresolution=C:\\Users\\AskeV\\AppData\\Local\\Temp\\ccogwN9I.res] ==> ignore
           arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc_eh] ==> ignore
@@ -2567,7 +2945,7 @@ events:
           arg [i386pep] ==> ignore
           arg [-Bdynamic] ==> search dynamic
           arg [-o] ==> ignore
-          arg [cmTC_22db6.exe] ==> ignore
+          arg [cmTC_2b79b.exe] ==> ignore
           arg [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib/crt2.o] ==> obj [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib/crt2.o]
           arg [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/crtbegin.o] ==> obj [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/crtbegin.o]
           arg [-LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0] ==> dir [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0]
@@ -2577,9 +2955,9 @@ events:
           arg [-LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib] ==> dir [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib]
           arg [-LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../..] ==> dir [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../..]
           arg [-v] ==> ignore
-          arg [CMakeFiles/cmTC_22db6.dir/CMakeCCompilerABI.c.obj] ==> ignore
+          arg [CMakeFiles/cmTC_2b79b.dir/CMakeCCompilerABI.c.obj] ==> ignore
           arg [--out-implib] ==> ignore
-          arg [libcmTC_22db6.dll.a] ==> ignore
+          arg [libcmTC_2b79b.dll.a] ==> ignore
           arg [--major-image-version] ==> ignore
           arg [0] ==> ignore
           arg [--minor-image-version] ==> ignore
@@ -2604,7 +2982,7 @@ events:
           arg [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib/default-manifest.o] ==> obj [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib/default-manifest.o]
           arg [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/crtend.o] ==> obj [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/crtend.o]
         ignore line: [collect2 version 14.2.0]
-        ignore line: [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe -plugin C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/liblto_plugin.dll -plugin-opt=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\AskeV\\AppData\\Local\\Temp\\ccSxq9Am.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_22db6.exe C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib/crt2.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/crtbegin.o -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0 -LC:/msys64/ucrt64/bin/../lib/gcc -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../.. -v CMakeFiles/cmTC_22db6.dir/CMakeCCompilerABI.c.obj --out-implib libcmTC_22db6.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib/default-manifest.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/crtend.o]
+        ignore line: [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe -plugin C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/liblto_plugin.dll -plugin-opt=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\AskeV\\AppData\\Local\\Temp\\ccogwN9I.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_2b79b.exe C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib/crt2.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/crtbegin.o -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0 -LC:/msys64/ucrt64/bin/../lib/gcc -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../.. -v CMakeFiles/cmTC_2b79b.dir/CMakeCCompilerABI.c.obj --out-implib libcmTC_2b79b.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib/default-manifest.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/crtend.o]
         linker tool for 'C': C:/msys64/ucrt64/x86_64-w64-mingw32/bin/ld.exe
         remove lib [gcc_eh]
         remove lib [msvcrt]
@@ -2645,8 +3023,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "C:/Users/AskeV/OneDrive - Aarhus universitet/UNI/RayLib Tetris/build/CMakeFiles/CMakeScratch/TryCompile-be5mz2"
-      binary: "C:/Users/AskeV/OneDrive - Aarhus universitet/UNI/RayLib Tetris/build/CMakeFiles/CMakeScratch/TryCompile-be5mz2"
+      source: "C:/Users/AskeV/OneDrive - Aarhus universitet/UNI/RayLib Tetris/build/CMakeFiles/CMakeScratch/TryCompile-tkkxpm"
+      binary: "C:/Users/AskeV/OneDrive - Aarhus universitet/UNI/RayLib Tetris/build/CMakeFiles/CMakeScratch/TryCompile-tkkxpm"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-g"
@@ -2656,10 +3034,10 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/AskeV/OneDrive - Aarhus universitet/UNI/RayLib Tetris/build/CMakeFiles/CMakeScratch/TryCompile-be5mz2'
+        Change Dir: 'C:/Users/AskeV/OneDrive - Aarhus universitet/UNI/RayLib Tetris/build/CMakeFiles/CMakeScratch/TryCompile-tkkxpm'
         
-        Run Build Command(s): C:/msys64/ucrt64/bin/ninja.exe -v cmTC_b165a
-        [1/2] C:\\msys64\\ucrt64\\bin\\c++.exe   -v -o CMakeFiles/cmTC_b165a.dir/CMakeCXXCompilerABI.cpp.obj -c "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeCXXCompilerABI.cpp"
+        Run Build Command(s): C:/msys64/ucrt64/bin/ninja.exe -v cmTC_38cbb
+        [1/2] C:\\msys64\\ucrt64\\bin\\c++.exe   -v -o CMakeFiles/cmTC_38cbb.dir/CMakeCXXCompilerABI.cpp.obj -c "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeCXXCompilerABI.cpp"
         Using built-in specs.
         COLLECT_GCC=C:\\msys64\\ucrt64\\bin\\c++.exe
         Target: x86_64-w64-mingw32
@@ -2667,8 +3045,8 @@ events:
         Thread model: posix
         Supported LTO compression algorithms: zlib zstd
         gcc version 14.2.0 (Rev2, Built by MSYS2 project) 
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_b165a.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_b165a.dir/'
-         C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/cc1plus.exe -quiet -v -iprefix C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/ -D_REENTRANT C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_b165a.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=nocona -version -o C:\\Users\\AskeV\\AppData\\Local\\Temp\\ccLvkLRG.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_38cbb.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_38cbb.dir/'
+         C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/cc1plus.exe -quiet -v -iprefix C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/ -D_REENTRANT C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_38cbb.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=nocona -version -o C:\\Users\\AskeV\\AppData\\Local\\Temp\\cc7CP181.s
         GNU C++17 (Rev2, Built by MSYS2 project) version 14.2.0 (x86_64-w64-mingw32)
         	compiled by GNU C version 14.2.0, GMP version 6.3.0, MPFR version 4.2.1, MPC version 1.3.1, isl version isl-0.27-GMP
         
@@ -2693,13 +3071,13 @@ events:
          C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/include-fixed
         End of search list.
         Compiler executable checksum: 0ae76c501e8dc149b84d2c95ded0e2f3
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_b165a.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_b165a.dir/'
-         C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles/cmTC_b165a.dir/CMakeCXXCompilerABI.cpp.obj C:\\Users\\AskeV\\AppData\\Local\\Temp\\ccLvkLRG.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_38cbb.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_38cbb.dir/'
+         C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles/cmTC_38cbb.dir/CMakeCXXCompilerABI.cpp.obj C:\\Users\\AskeV\\AppData\\Local\\Temp\\cc7CP181.s
         GNU assembler version 2.43.1 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.43.1
         COMPILER_PATH=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/;C:/msys64/ucrt64/bin/../lib/gcc/;C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/
         LIBRARY_PATH=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/;C:/msys64/ucrt64/bin/../lib/gcc/;C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib/;C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/;C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_b165a.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_b165a.dir/CMakeCXXCompilerABI.cpp.'
-        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\msys64\\ucrt64\\bin\\c++.exe  -v -Wl,-v CMakeFiles/cmTC_b165a.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_b165a.exe -Wl,--out-implib,libcmTC_b165a.dll.a -Wl,--major-image-version,0,--minor-image-version,0   && cd ."
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_38cbb.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_38cbb.dir/CMakeCXXCompilerABI.cpp.'
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\msys64\\ucrt64\\bin\\c++.exe  -v -Wl,-v CMakeFiles/cmTC_38cbb.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_38cbb.exe -Wl,--out-implib,libcmTC_38cbb.dll.a -Wl,--major-image-version,0,--minor-image-version,0   && cd ."
         Using built-in specs.
         COLLECT_GCC=C:\\msys64\\ucrt64\\bin\\c++.exe
         COLLECT_LTO_WRAPPER=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/lto-wrapper.exe
@@ -2710,12 +3088,12 @@ events:
         gcc version 14.2.0 (Rev2, Built by MSYS2 project) 
         COMPILER_PATH=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/;C:/msys64/ucrt64/bin/../lib/gcc/;C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/
         LIBRARY_PATH=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/;C:/msys64/ucrt64/bin/../lib/gcc/;C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib/;C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/;C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_b165a.exe' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_b165a.'
-         C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/collect2.exe -plugin C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/liblto_plugin.dll -plugin-opt=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\AskeV\\AppData\\Local\\Temp\\ccLxkEuT.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_b165a.exe C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib/crt2.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/crtbegin.o -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0 -LC:/msys64/ucrt64/bin/../lib/gcc -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../.. -v CMakeFiles/cmTC_b165a.dir/CMakeCXXCompilerABI.cpp.obj --out-implib libcmTC_b165a.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib/default-manifest.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/crtend.o
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_38cbb.exe' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_38cbb.'
+         C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/collect2.exe -plugin C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/liblto_plugin.dll -plugin-opt=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\AskeV\\AppData\\Local\\Temp\\ccNMLm3j.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_38cbb.exe C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib/crt2.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/crtbegin.o -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0 -LC:/msys64/ucrt64/bin/../lib/gcc -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../.. -v CMakeFiles/cmTC_38cbb.dir/CMakeCXXCompilerABI.cpp.obj --out-implib libcmTC_38cbb.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib/default-manifest.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/crtend.o
         collect2 version 14.2.0
-        C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe -plugin C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/liblto_plugin.dll -plugin-opt=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\AskeV\\AppData\\Local\\Temp\\ccLxkEuT.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_b165a.exe C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib/crt2.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/crtbegin.o -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0 -LC:/msys64/ucrt64/bin/../lib/gcc -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../.. -v CMakeFiles/cmTC_b165a.dir/CMakeCXXCompilerABI.cpp.obj --out-implib libcmTC_b165a.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib/default-manifest.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/crtend.o
+        C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe -plugin C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/liblto_plugin.dll -plugin-opt=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\AskeV\\AppData\\Local\\Temp\\ccNMLm3j.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_38cbb.exe C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib/crt2.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/crtbegin.o -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0 -LC:/msys64/ucrt64/bin/../lib/gcc -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../.. -v CMakeFiles/cmTC_38cbb.dir/CMakeCXXCompilerABI.cpp.obj --out-implib libcmTC_38cbb.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib/default-manifest.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/crtend.o
         GNU ld (GNU Binutils) 2.43.1
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_b165a.exe' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_b165a.'
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_38cbb.exe' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_38cbb.'
         
       exitCode: 0
   -
@@ -2754,10 +3132,10 @@ events:
       Parsed CXX implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
-        ignore line: [Change Dir: 'C:/Users/AskeV/OneDrive - Aarhus universitet/UNI/RayLib Tetris/build/CMakeFiles/CMakeScratch/TryCompile-be5mz2']
+        ignore line: [Change Dir: 'C:/Users/AskeV/OneDrive - Aarhus universitet/UNI/RayLib Tetris/build/CMakeFiles/CMakeScratch/TryCompile-tkkxpm']
         ignore line: []
-        ignore line: [Run Build Command(s): C:/msys64/ucrt64/bin/ninja.exe -v cmTC_b165a]
-        ignore line: [[1/2] C:\\msys64\\ucrt64\\bin\\c++.exe   -v -o CMakeFiles/cmTC_b165a.dir/CMakeCXXCompilerABI.cpp.obj -c "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeCXXCompilerABI.cpp"]
+        ignore line: [Run Build Command(s): C:/msys64/ucrt64/bin/ninja.exe -v cmTC_38cbb]
+        ignore line: [[1/2] C:\\msys64\\ucrt64\\bin\\c++.exe   -v -o CMakeFiles/cmTC_38cbb.dir/CMakeCXXCompilerABI.cpp.obj -c "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeCXXCompilerABI.cpp"]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=C:\\msys64\\ucrt64\\bin\\c++.exe]
         ignore line: [Target: x86_64-w64-mingw32]
@@ -2765,8 +3143,8 @@ events:
         ignore line: [Thread model: posix]
         ignore line: [Supported LTO compression algorithms: zlib zstd]
         ignore line: [gcc version 14.2.0 (Rev2  Built by MSYS2 project) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_b165a.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_b165a.dir/']
-        ignore line: [ C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/cc1plus.exe -quiet -v -iprefix C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/ -D_REENTRANT C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_b165a.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=nocona -version -o C:\\Users\\AskeV\\AppData\\Local\\Temp\\ccLvkLRG.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_38cbb.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_38cbb.dir/']
+        ignore line: [ C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/cc1plus.exe -quiet -v -iprefix C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/ -D_REENTRANT C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_38cbb.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=nocona -version -o C:\\Users\\AskeV\\AppData\\Local\\Temp\\cc7CP181.s]
         ignore line: [GNU C++17 (Rev2  Built by MSYS2 project) version 14.2.0 (x86_64-w64-mingw32)]
         ignore line: [	compiled by GNU C version 14.2.0  GMP version 6.3.0  MPFR version 4.2.1  MPC version 1.3.1  isl version isl-0.27-GMP]
         ignore line: []
@@ -2791,8 +3169,8 @@ events:
         ignore line: [ C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/include-fixed]
         ignore line: [End of search list.]
         ignore line: [Compiler executable checksum: 0ae76c501e8dc149b84d2c95ded0e2f3]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_b165a.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_b165a.dir/']
-        ignore line: [ C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles/cmTC_b165a.dir/CMakeCXXCompilerABI.cpp.obj C:\\Users\\AskeV\\AppData\\Local\\Temp\\ccLvkLRG.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_38cbb.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_38cbb.dir/']
+        ignore line: [ C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles/cmTC_38cbb.dir/CMakeCXXCompilerABI.cpp.obj C:\\Users\\AskeV\\AppData\\Local\\Temp\\cc7CP181.s]
         ignore line: [GNU assembler version 2.43.1 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.43.1]
         ignore line: [COMPILER_PATH=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/]
         ignore line: [C:/msys64/ucrt64/bin/../lib/gcc/]
@@ -2803,8 +3181,8 @@ events:
         ignore line: [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib/]
         ignore line: [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/]
         ignore line: [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_b165a.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_b165a.dir/CMakeCXXCompilerABI.cpp.']
-        ignore line: [[2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\msys64\\ucrt64\\bin\\c++.exe  -v -Wl -v CMakeFiles/cmTC_b165a.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_b165a.exe -Wl --out-implib libcmTC_b165a.dll.a -Wl --major-image-version 0 --minor-image-version 0   && cd ."]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_38cbb.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_38cbb.dir/CMakeCXXCompilerABI.cpp.']
+        ignore line: [[2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\msys64\\ucrt64\\bin\\c++.exe  -v -Wl -v CMakeFiles/cmTC_38cbb.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_38cbb.exe -Wl --out-implib libcmTC_38cbb.dll.a -Wl --major-image-version 0 --minor-image-version 0   && cd ."]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=C:\\msys64\\ucrt64\\bin\\c++.exe]
         ignore line: [COLLECT_LTO_WRAPPER=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/lto-wrapper.exe]
@@ -2822,13 +3200,13 @@ events:
         ignore line: [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib/]
         ignore line: [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/]
         ignore line: [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_b165a.exe' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_b165a.']
-        link line: [ C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/collect2.exe -plugin C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/liblto_plugin.dll -plugin-opt=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\AskeV\\AppData\\Local\\Temp\\ccLxkEuT.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_b165a.exe C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib/crt2.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/crtbegin.o -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0 -LC:/msys64/ucrt64/bin/../lib/gcc -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../.. -v CMakeFiles/cmTC_b165a.dir/CMakeCXXCompilerABI.cpp.obj --out-implib libcmTC_b165a.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib/default-manifest.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/crtend.o]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_38cbb.exe' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_38cbb.']
+        link line: [ C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/collect2.exe -plugin C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/liblto_plugin.dll -plugin-opt=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\AskeV\\AppData\\Local\\Temp\\ccNMLm3j.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_38cbb.exe C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib/crt2.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/crtbegin.o -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0 -LC:/msys64/ucrt64/bin/../lib/gcc -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../.. -v CMakeFiles/cmTC_38cbb.dir/CMakeCXXCompilerABI.cpp.obj --out-implib libcmTC_38cbb.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib/default-manifest.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/crtend.o]
           arg [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/collect2.exe] ==> ignore
           arg [-plugin] ==> ignore
           arg [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/liblto_plugin.dll] ==> ignore
           arg [-plugin-opt=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/lto-wrapper.exe] ==> ignore
-          arg [-plugin-opt=-fresolution=C:\\Users\\AskeV\\AppData\\Local\\Temp\\ccLxkEuT.res] ==> ignore
+          arg [-plugin-opt=-fresolution=C:\\Users\\AskeV\\AppData\\Local\\Temp\\ccNMLm3j.res] ==> ignore
           arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
@@ -2850,7 +3228,7 @@ events:
           arg [i386pep] ==> ignore
           arg [-Bdynamic] ==> search dynamic
           arg [-o] ==> ignore
-          arg [cmTC_b165a.exe] ==> ignore
+          arg [cmTC_38cbb.exe] ==> ignore
           arg [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib/crt2.o] ==> obj [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib/crt2.o]
           arg [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/crtbegin.o] ==> obj [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/crtbegin.o]
           arg [-LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0] ==> dir [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0]
@@ -2860,9 +3238,9 @@ events:
           arg [-LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib] ==> dir [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib]
           arg [-LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../..] ==> dir [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../..]
           arg [-v] ==> ignore
-          arg [CMakeFiles/cmTC_b165a.dir/CMakeCXXCompilerABI.cpp.obj] ==> ignore
+          arg [CMakeFiles/cmTC_38cbb.dir/CMakeCXXCompilerABI.cpp.obj] ==> ignore
           arg [--out-implib] ==> ignore
-          arg [libcmTC_b165a.dll.a] ==> ignore
+          arg [libcmTC_38cbb.dll.a] ==> ignore
           arg [--major-image-version] ==> ignore
           arg [0] ==> ignore
           arg [--minor-image-version] ==> ignore
@@ -2888,7 +3266,7 @@ events:
           arg [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib/default-manifest.o] ==> obj [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib/default-manifest.o]
           arg [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/crtend.o] ==> obj [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/crtend.o]
         ignore line: [collect2 version 14.2.0]
-        ignore line: [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe -plugin C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/liblto_plugin.dll -plugin-opt=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\AskeV\\AppData\\Local\\Temp\\ccLxkEuT.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_b165a.exe C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib/crt2.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/crtbegin.o -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0 -LC:/msys64/ucrt64/bin/../lib/gcc -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../.. -v CMakeFiles/cmTC_b165a.dir/CMakeCXXCompilerABI.cpp.obj --out-implib libcmTC_b165a.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib/default-manifest.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/crtend.o]
+        ignore line: [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe -plugin C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/liblto_plugin.dll -plugin-opt=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\AskeV\\AppData\\Local\\Temp\\ccNMLm3j.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_38cbb.exe C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib/crt2.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/crtbegin.o -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0 -LC:/msys64/ucrt64/bin/../lib/gcc -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../.. -v CMakeFiles/cmTC_38cbb.dir/CMakeCXXCompilerABI.cpp.obj --out-implib libcmTC_38cbb.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib/default-manifest.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/crtend.o]
         linker tool for 'CXX': C:/msys64/ucrt64/x86_64-w64-mingw32/bin/ld.exe
         remove lib [msvcrt]
         remove lib [msvcrt]

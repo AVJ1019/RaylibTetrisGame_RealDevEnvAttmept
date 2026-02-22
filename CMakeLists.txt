@@ -10,6 +10,8 @@ include_directories(
     "${CMAKE_SOURCE_DIR}/include/game"
     "${CMAKE_SOURCE_DIR}/include/managers"
     "${CMAKE_SOURCE_DIR}/include/scenes"
+    "${CMAKE_SOURCE_DIR}/include/scenes/start"
+    "${CMAKE_SOURCE_DIR}/src/scene/start"
     )
 
 file( GLOB_RECURSE glob_files

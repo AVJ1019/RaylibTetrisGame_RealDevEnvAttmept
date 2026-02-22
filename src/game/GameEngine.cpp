@@ -8,14 +8,14 @@ void GameEngine::run()
     BeginDrawing();
     SetTargetFPS(60);
 
-    sceneManager = new SceneManager();
     assetManager = new AssetMananger();
+    sceneManager = new SceneManager(assetManager);
     renderer = new Renderer();
 
-    dt = GetFrameTime(); // Henter frametime, så man kan renge hastigheder dynamnisk
-
+    
     while (!WindowShouldClose())
     {
+        dt = GetFrameTime(); // Henter frametime, så man kan renge hastigheder dynamnisk
         handleInput(); // Skal spillet pause?
         update(dt); // Updater alle entities
         draw(); // Lad alle opdaterede entities opdatere
@@ -37,12 +37,6 @@ void GameEngine::handleInput()
             std::cout << "[GAME ENGINE] Scene is resumed!\n";
         }
     } 
-
-    if (IsKeyPressed(KEY_ENTER))
-    {
-        std::cout << "[GAME ENGINE] Changing scene...\n";
-        sceneManager->changeScene(new mainMenu(assetManager));
-    }
 }
 
 void GameEngine::update(float dt)
