@@ -1,3 +1,0 @@
-C:/Users/AskeV/OneDrive - Aarhus universitet/UNI/RayLib Tetris/build/CMakeFiles/TetrisSpil.dir
-C:/Users/AskeV/OneDrive - Aarhus universitet/UNI/RayLib Tetris/build/CMakeFiles/edit_cache.dir
-C:/Users/AskeV/OneDrive - Aarhus universitet/UNI/RayLib Tetris/build/CMakeFiles/rebuild_cache.dir

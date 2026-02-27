@@ -22,33 +22,57 @@ void loopTetromino(int tet[16], std::function<void(int x, int y, int val)> f)
     }
 }
 
-bool canMoveX(const std::vector<int> &grid, int xDir, int CurX, int CurY, int shape[16])
+bool canMoveX(const std::vector<int> &grid, int xDir, int &CurX, int CurY, int shape[16])
 {
     int targetX;
-    int targetY;
-    for (auto xOff{0}; xOff < TETROMINO_GRID_SIZE; xOff++)
+    for (auto xOff{0}; xOff < 4; xOff++)
     {
-        targetX = CurX + xOff + xDir;
-        if (shape[targetX] != 0)
-            if (targetX < 0 || targetX > COLS)
-                return false;
-        for (auto yOff{0}; yOff < TETROMINO_GRID_SIZE; yOff++)
+        for (auto yOff{0}; yOff < 4; yOff++)
         {
-            targetY = (yOff + CurY) * TETROMINO_GRID_SIZE + targetX;
-            if (shape[targetY] != 0)
-                if (targetY >= grid.size() || grid.at(targetY) != 0)
+            if (shape[xOff + (yOff * TETROMINO_GRID_SIZE_SQR)] != 0)
+            {
+                targetX = CurX + xOff + xDir;
+                std::cout << "X: " << CurX << " Y: " << CurY << " TargetX: " << targetX << std::endl;
+                if (targetX < 0 || targetX >= COLS)
+                {
+                    if (targetX < 0)
+                        CurX = 0 - xOff;
+                    else if (targetX >= COLS)
+                        CurX = COLS - 1 - xOff;
                     return false;
+                }
+                targetX += (yOff + CurY) * COLS;
+                if (grid[targetX] != 0)
+                    return false;
+            }
         }
     }
     return true;
 }
 
-bool canMoveX()
+bool canMoveY(const std::vector<int> &grid, int yDir, int CurX, int CurY, int shape[16])
 {
-    return false;
+    int targetY;
+    for (auto xOff{0}; xOff < 4; xOff++)
+    {
+        for (auto yOff{0}; yOff < 4; yOff++)
+        {
+            if (shape[xOff + (yOff * TETROMINO_GRID_SIZE_SQR)] != 0)
+            {
+                targetY = CurY + yOff + yDir;
+                if (targetY < 0 || targetY >= ROWS)
+                    return false;
+                targetY *= COLS;
+                targetY += CurX + xOff;
+                if (grid[targetY] != 0)
+                    return false;
+            }
+        }
+    }
+    return true;
 }
 
-bool canMoveRot()
+bool canMoveRot(const std::vector<int> &grid, int yDir, int CurX, int CurY, int shape[16])
 {
     return false;
 }

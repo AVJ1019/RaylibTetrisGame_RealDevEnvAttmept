@@ -18,21 +18,19 @@ bool Tetromino::canMove(const std::vector<int> &grid, int xMov, int yMov, int rM
     int targetX = x;
     int targetY = y;
     int targetRot = (rot + rMov) % 4;
-    for (auto i{0}; i < 4; i++)
+
+    if (canMoveX(grid, xMov, x, y, shapeData.rotData[targetRot]))
+        x += xMov;
+    else
+        return false;
+    if (!canMoveY(grid, yMov, x, y, shapeData.rotData[targetRot]))
     {
-        for (auto j{0}; j < 4; j++)
-        {
-            if (shapeData.rotData[targetRot][j * 4 + i] != 0)
-            {
-                targetX = x + i + xMov;
-                if (!canMoveX(grid, xMov, x, y, shapeData.rotData[targetRot]))
-                    return false;
-            }
-        }
+        alive = false;
+        return false;
     }
-    x += xMov;
-    y += yMov;
+
     rot = targetRot;
+    y += yMov;
     return true;
 }
 

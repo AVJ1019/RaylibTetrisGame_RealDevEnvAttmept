@@ -24,7 +24,7 @@ void Start::update(float dt)
         std::cout << "[START] Tetromino moved LEFT...\n";
     if (IsKeyPressed(KEY_RIGHT) && activePiece->canMove(playArea->getGrid(), 1, 0, 0, col))
         std::cout << "[START] Tetromino moved RIGHT...\n";
-    if (IsKeyPressed(KEY_DOWN))
+    if (IsKeyPressed(KEY_SPACE))
         while (activePiece->canMove(playArea->getGrid(), 0, 1, 0, col))
         {
         }
@@ -32,18 +32,17 @@ void Start::update(float dt)
         std::cout << "[START] Tetromino ROTATED...\n";
     else if (IsKeyPressed(KEY_UP) && !activePiece->canMove(playArea->getGrid(), 0, 0, 1, col))
     {
-        activePiece->canMove(playArea->getGrid(), 0, -1, 0, col);
+        // activePiece->canMove(playArea->getGrid(), 0, -1, 0, col);
         activePiece->canMove(playArea->getGrid(), 0, 0, 1, col);
-        tPass = 0;
         std::cout << "[START] Tetromino moved UP and ROTATED...\n";
     }
-    // if (tPass < (dt * dropRate))
-    //     tPass += dt;
-    // else
-    // {
-    //     activePiece->canMove(playArea->getGrid(), 0, 1, 0, col);
-    //     tPass = 0;
-    // }
+    if (tPass < (dt * dropRate))
+        tPass += dt;
+    else
+    {
+        activePiece->canMove(playArea->getGrid(), 0, 1, 0, col);
+        tPass = 0;
+    }
     if (!activePiece->isAlive())
     {
         std::cout << "[START] Tetromino LOCKED IN...\n";

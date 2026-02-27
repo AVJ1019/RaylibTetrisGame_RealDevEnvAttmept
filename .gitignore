@@ -57,6 +57,8 @@ compile_commands.json
 *.log 
 *.bak 
 *.swp 
+*.ninja_log
+*.url
 
 # vcpkg
 vcpkg_installed/
