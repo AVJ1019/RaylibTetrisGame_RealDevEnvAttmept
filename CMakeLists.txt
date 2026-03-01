@@ -11,6 +11,7 @@ include_directories(
     "${CMAKE_SOURCE_DIR}/include/managers"
     "${CMAKE_SOURCE_DIR}/include/scenes"
     "${CMAKE_SOURCE_DIR}/include/scenes/start"
+    "${CMAKE_SOURCE_DIR}/include/scenes/game_over"
     "${CMAKE_SOURCE_DIR}/src/scene/start"
     )
 

@@ -23,7 +23,7 @@ void SceneManager::update(float dt)
         if(currentScene->isDone())
         {
             Scene* oldScene = currentScene;
-            currentScene = sceneFactory(oldScene->getNextScene());
+            currentScene = sceneFactory(oldScene->getNextScene(), oldScene->getGameResults());
             delete oldScene;
         }
     }

@@ -19,6 +19,6 @@ public:
     const std::vector<int> &getGrid() const { return grid; };
     float getTetrominoSize() const { return tetrominoFieldSize; }
     Vector2 getGridOffset() const { return {startPosX, startPosY}; }
-
+    int getScore() {return score; }
     bool lockInTetromino(const Tetromino *tet);
 };

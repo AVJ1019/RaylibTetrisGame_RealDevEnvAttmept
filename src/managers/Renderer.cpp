@@ -20,6 +20,15 @@ void Renderer::drawButton(Rectangle &r, Color c, std::string s)
     DrawText(s.c_str(), sPosX, sPosy, fs, RED);
 }
 
+void Renderer::drawText(std::string str, int x, int y, float scale, Color c)
+{
+    auto fs_scaled = scale * calcFontSize(str, GetScreenWidth(), GetScreenHeight());
+
+    auto textSize = MeasureTextEx(GetFontDefault(), str.c_str(), fs_scaled, 10); // 10 er halvedel af padding i calcFontSize, som er nødvendig
+
+    DrawText(str.c_str(), x - (textSize.x / 2), y, fs_scaled, c);
+}
+
 void Renderer::drawSqr(int x, int y, int size, Color c, bool filled)
 {
     if (!filled)
@@ -30,11 +39,11 @@ void Renderer::drawSqr(int x, int y, int size, Color c, bool filled)
     DrawRectangle(x, y, size, size, c);
 }
 
-int calcFontSize(std::string s, float btnWitdh, float btnHeight)
+int calcFontSize(std::string s, float Witdh, float Height)
 {
     float padding = 20;
-    float targetWidth = btnWitdh - padding;
-    float targetHeight = btnHeight - padding;
+    float targetWidth = Witdh - padding;
+    float targetHeight = Height - padding;
 
     float defaultSize = 10;
     Vector2 textSize = MeasureTextEx(GetFontDefault(), s.c_str(), defaultSize, 1);
