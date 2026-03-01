@@ -10,7 +10,7 @@ protected:
     bool sceneDone{false};
     STATES nextScene;
     AssetMananger *assets;
-    EntityManager* ents = new EntityManager();
+    EntityManager *ents = new EntityManager();
 
 private:
 public:
@@ -20,6 +20,7 @@ public:
     virtual void draw(Renderer *renderer) = 0;
     bool isDone() { return sceneDone; }
     STATES getNextScene() { return nextScene; }
+    virtual int getGameResults() { return -1; }
 };
 
 class SceneManager
@@ -28,8 +29,9 @@ private:
     Scene *currentScene = nullptr;
     bool isPaused = false;
     AssetMananger *assets = nullptr;
-    
-    Scene *sceneFactory(STATES toScene);
+
+    Scene *sceneFactory(STATES toScene, int score = -1);
+
 public:
     void changeScene(Scene *newScene);
     bool togglePause();
