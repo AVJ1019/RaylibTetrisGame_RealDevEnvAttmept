@@ -31,13 +31,13 @@ void mainMenu::update(float dt)
 {
     if (IsMouseButtonReleased(MOUSE_BUTTON_LEFT))
     {
-        for (auto i{0}; i < buttons.size(); i++)
+        for (auto btn{0}; btn < buttons.size(); btn++)
         {
-            if (CheckCollisionPointRec(GetMousePosition(), buttons[i]))
+            if (CheckCollisionPointRec(GetMousePosition(), buttons[btn]))
             {
                 sceneDone = true;
-                nextScene = static_cast<STATES>(i+1);
-                std::cout << "[MAINMENU] Next scene = " << i+1 << std::endl;
+                nextScene = static_cast<STATES>(btn+1);
+                std::cout << "[MAINMENU] Next scene = " << btn+1 << std::endl;
             }
         }
     }

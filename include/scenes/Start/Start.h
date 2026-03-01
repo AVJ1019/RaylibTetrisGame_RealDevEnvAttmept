@@ -12,7 +12,7 @@ private:
     float dropRate = 15, intervalChange = 0.95; // dropRate er lig med 1 sekund således 
 
 public:
-    Start(AssetMananger *am, int row, int col);
+    Start(AssetMananger *am);
     ~Start();
     void update(float dt) override;
     void draw(Renderer *renderer) override;

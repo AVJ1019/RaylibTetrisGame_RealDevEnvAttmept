@@ -32,7 +32,6 @@ bool canMoveX(const std::vector<int> &grid, int xDir, int &CurX, int CurY, int s
             if (shape[xOff + (yOff * TETROMINO_GRID_SIZE_SQR)] != 0)
             {
                 targetX = CurX + xOff + xDir;
-                std::cout << "X: " << CurX << " Y: " << CurY << " TargetX: " << targetX << std::endl;
                 if (targetX < 0 || targetX >= COLS)
                 {
                     if (targetX < 0)

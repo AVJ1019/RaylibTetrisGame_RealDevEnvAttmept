@@ -13,7 +13,7 @@ Tetromino::Tetromino(float size, int offX, int offY) : tetrominoSize(size), offs
     shapeData = shapeGen(static_cast<SHAPES>(getRandomShape()));
 }
 
-bool Tetromino::canMove(const std::vector<int> &grid, int xMov, int yMov, int rMov, int col)
+bool Tetromino::canMove(const std::vector<int> &grid, int xMov, int yMov, int rMov)
 {
     int targetX = x;
     int targetY = y;

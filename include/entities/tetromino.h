@@ -14,7 +14,7 @@ public:
     Tetromino(float size, int offX, int offY);
     ~Tetromino();
     void update(float dt) override;
-    bool canMove(const std::vector<int> &grid, int xMov, int yMov, int rMov, int col);
+    bool canMove(const std::vector<int> &grid, int xMov, int yMov, int rMov);
     void draw(Renderer *renderer) override;
     int getShapeVal(int posX, int posY) const;
     Vector2 getPos() const { return {(float)x, (float)y}; }

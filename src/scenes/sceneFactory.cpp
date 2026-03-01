@@ -12,7 +12,7 @@ Scene *SceneManager::sceneFactory(STATES toScene)
         return new mainMenu(assets);
         break;
     case (STATE_START):
-        return new Start(assets, ROWS, COLS);
+        return new Start(assets);
         break;
     case (STATE_OPTION):
         return nullptr;
