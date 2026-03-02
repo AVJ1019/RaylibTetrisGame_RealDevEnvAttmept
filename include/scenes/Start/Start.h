@@ -11,7 +11,7 @@ private:
     Tetromino *waitingPiece = nullptr;
     int score;
     float dropRate = 15, intervalChange = 0.95; // dropRate er lig med 1 sekund således 
-
+    bool swapUsed = false; 
 public:
     Start(AssetMananger *am);
     ~Start();

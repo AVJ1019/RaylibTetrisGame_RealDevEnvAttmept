@@ -8,9 +8,9 @@ void EntityManager::addEntity(entity *toAdd)
 
 void EntityManager::removeEntity(entity *toRemove)
 {
-    for(auto ite{entities.begin()}; ite < entities.end(); ite++)
+    for (auto ite{entities.begin()}; ite < entities.end(); ite++)
     {
-        if(*ite == toRemove)
+        if (*ite == toRemove)
         {
             delete *ite;
             entities.erase(ite);
@@ -22,16 +22,28 @@ void EntityManager::removeEntity(entity *toRemove)
 
 void EntityManager::update(float dt)
 {
-    for(auto ent : entities)
+    for (auto ent : entities)
         ent->update(dt);
 }
 
 void EntityManager::draw(Renderer *renderer)
 {
-    for(auto ent : entities)
+    for (auto ent : entities)
         ent->draw(renderer);
 }
 
 void EntityManager::unloadEntities()
 {
+}
+
+bool EntityManager::containsEntity(entity *ent)
+{
+    for (auto ite{entities.begin()}; ite < entities.end(); ite++)
+    {
+        if (*ite == ent)
+        {
+            return true;
+        }
+    }
+    return false;
 }

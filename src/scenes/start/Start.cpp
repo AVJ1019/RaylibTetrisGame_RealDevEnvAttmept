@@ -35,8 +35,13 @@ void Start::update(float dt)
 
     if (IsKeyPressed(KEY_UP))
         activePiece->canMove(playArea->getGrid(), 0, 0, 1);
-    if(IsKeyPressed(KEY_C))
+    if(IsKeyPressed(KEY_C) && !swapUsed)
+    {
         holdTetromino(activePiece, waitingPiece, playArea);
+        if(!ents->containsEntity(activePiece))
+            ents->addEntity(activePiece);
+        swapUsed = true;
+    }
     if (tPass < (dt * dropRate))
         tPass += dt;
     else
@@ -56,6 +61,7 @@ void Start::update(float dt)
         generateTetromino(playArea, activePiece);
         ents->addEntity(activePiece);
         playArea->update();
+        swapUsed = false;
     }
     ents->update(dt);
 }
