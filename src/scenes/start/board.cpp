@@ -42,7 +42,7 @@ void Board::update()
         bool fullLine = true;
         for (auto x{0}; x < col; x++)
         {
-            if (grid.at((y * col) + x - 1) == 0)
+            if (grid.at((y * col) + x) == 0)
             {
                 fullLine = false;
                 continue;
