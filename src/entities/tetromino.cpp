@@ -40,8 +40,9 @@ void Tetromino::update(float dt)
 
 void Tetromino::draw(Renderer *renderer)
 {
-    loopTetromino(shapeData.rotData[rot], [&](int shapeX, int shapeY, int val)
-                  {
+    if (shouldPrint)
+        loopTetromino(shapeData.rotData[rot], [&](int shapeX, int shapeY, int val)
+                      {
                       if (val != 0)
                           renderer->drawSqr(((x + shapeX) * tetrominoSize) + offsetX, ((y + shapeY) * tetrominoSize) + offsetY, tetrominoSize, colorFactory(val), true); });
 }
@@ -49,4 +50,11 @@ void Tetromino::draw(Renderer *renderer)
 int Tetromino::getShapeVal(int posX, int posY) const
 {
     return shapeData.rotData[rot][(posY * 4) + posX];
+}
+
+void Tetromino::resetPosition()
+{
+    x = COLS / 2;
+    y = 0;
+    rot = 0;
 }

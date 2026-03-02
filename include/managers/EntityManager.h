@@ -27,6 +27,7 @@ public:
 
     void addEntity(entity* toAdd);
     void removeEntity(entity* toRemove);
+    bool containsEntity(entity* ent);
 
     void update(float dt);
     void draw(Renderer *renderer);
