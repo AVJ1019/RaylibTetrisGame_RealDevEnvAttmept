@@ -8,6 +8,7 @@ class Start : public Scene
 private:
     Board *playArea = nullptr;
     Tetromino *activePiece = nullptr;
+    Tetromino *waitingPiece = nullptr;
     int score;
     float dropRate = 15, intervalChange = 0.95; // dropRate er lig med 1 sekund således 
 
