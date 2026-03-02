@@ -16,6 +16,7 @@ void Start::draw(Renderer *renderer)
 {
     playArea->draw(renderer);
     ents->draw(renderer);
+    renderer->drawText(std::to_string(playArea->getScore()),100,0,0.1,RED);
 }
 
 void Start::update(float dt)

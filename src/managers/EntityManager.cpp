@@ -14,7 +14,7 @@ void EntityManager::removeEntity(entity *toRemove)
         {
             delete *ite;
             entities.erase(ite);
-            std::cout << "[ENTITY MANAGER] Erased entity...\n";
+            // std::cout << "[ENTITY MANAGER] Erased entity...\n";
             return;
         }
     }

@@ -37,7 +37,7 @@ void Board::draw(Renderer *renderer)
 void Board::update()
 {
     int linesCleared = 0;
-    for (auto y{row-1}; y > 0; y--)
+    for (auto y{row - 1}; y > 0; y--)
     {
         bool fullLine = true;
         for (auto x{0}; x < col; x++)
@@ -62,9 +62,13 @@ void Board::update()
             linesCleared++;
         }
     }
-    if (linesCleared > 1)
+    if (linesCleared > 0)
+    {
+        score += (10 * linesCleared) + (combo * 10);
         combo += linesCleared;
-    score += combo * linesCleared * 10;
+    }
+    else
+        combo = 0;
 }
 
 void loopGrid(std::vector<int> &grid, int col, int row, std::function<void(int x, int y, int val)> f)
